@@ -1,0 +1,11 @@
+﻿{
+	"name":	"The Grand Combination",
+	"id":	"tgcteam.thegrandcampaign",
+	"version":	"0.2",
+	"supported_game_version":	"1.2.1",
+	"short_description":	"silly cat",
+	"tags":	["Advancements", "Historical", "Map", "Trade and Economics", "User Interface"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
