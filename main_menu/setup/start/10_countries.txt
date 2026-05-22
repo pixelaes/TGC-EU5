@@ -12514,7 +12514,7 @@ countries = {
 					imola
 					ravenna
 					bologna medicina vergato
-					comacchio ferrara ficarolo rovigo argenta
+					comacchio ferrara ficarolo argenta
 				}
 
 				include = "catholic_bishopric"
@@ -16280,7 +16280,7 @@ countries = {
 
 			HAB = {	
 				own_control_core = {
-					kotor
+					kotor rovigo
 					fryvaldov slano cetatea_tetina
 					suceava 
 					vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
