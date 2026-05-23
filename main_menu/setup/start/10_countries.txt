@@ -1419,6 +1419,8 @@ countries = {
 
 			USA = {
 				own_control_core = {
+					wolastoq
+					madawaska
 					shawmut
 					naumkeag
 					assabet
@@ -7994,7 +7996,6 @@ countries = {
 						wachilmezi
 						onkobagag
 						sartigan
-						wolastoq
 						stadacona
 						andawaohie
 						ontaretse
@@ -8323,7 +8324,6 @@ countries = {
 						maleagit
 						pogomeg
 						asoqasqoq
-						madawaska
 						negoot
 						becaguimec
 						siegas
