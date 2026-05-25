@@ -4564,14 +4564,14 @@ countries = {
 
 			PRU = { #Prussia
 				own_control_core = {
+					schleusingen
+					apolda
 					lichtenberg_veldenz
-					naumburg
 					eisleben
 					merseburg
 					weissenfels
 					langensalza freyburg beichlingen
 					erfurt
-					schmalkalden
 					wetzlar
 					muhlhausen
 					nordhausen
@@ -21711,7 +21711,7 @@ countries = {
 
 			SMN = {	#Henneberg
 				own_control_core = {
-					meiningen schleusingen 
+					meiningen 
 					 hildburghausen #Lordship of Coburg
 				}
 
@@ -22655,12 +22655,34 @@ countries = {
 				}
 
 				country_rank = rank_county
-				capital = gera
+				capital = schleiz
+			}
+
+			RJL = {
+				own_control_core = {
+					naumburg
+				}
+
+				starting_technology_level = 3
+				include = "expl_western_europe"
+				include = "catholic_german_republic_no_coast"
+				include = "expl_northern_europe"
+				government = {
+
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					east_franconian
+				}
+
+				country_rank = rank_county
+				capital = naumburg
 			}
 
 			SWM = {	#Weimar
 				own_control_core = {
-					weimar gera eisenach apolda
+					weimar gera eisenach
 				}
 
 				starting_technology_level = 3
@@ -22688,7 +22710,7 @@ countries = {
 
 			SZR = {	#Schwarzburg
 				own_control_core = {
-					arnstadt 
+					saalfeld
 				}
 
 				starting_technology_level = 3
@@ -22713,13 +22735,12 @@ countries = {
 				}
 
 				country_rank = rank_county
-				capital = arnstadt
+				capital = saalfeld
 				dynasty = schwarzburg_dynasty
 			}
 
 			RLE = {
 				own_control_core = {
-					saalfeld
 				}
 
 				starting_technology_level = 3
@@ -22748,7 +22769,7 @@ countries = {
 
 			SZS = {	#Sondershausen
 				own_control_core = {
-					sondershausen
+					sondershausen arnstadt
 				}
 
 				starting_technology_level = 3
@@ -22780,6 +22801,7 @@ countries = {
 					fulda hunfeld
 					hersfeld
 					ziegenhain
+					schmalkalden
 				}
 
 				starting_technology_level = 3
