@@ -22166,7 +22166,7 @@ countries = {
 
 			HOH = {  # Hohenzollern (South Germany)
 				own_control_core = {
-					balingen horb
+					balingen
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -22208,7 +22208,6 @@ countries = {
 					stuttgart goppingen welzheim backnang urach nagold riedlingen oberndorf calw hohenberg
 					tubingen 
 					waldsee saulgau #Lordship of Waldsee
-					uberlingen
 					heilbronn vaihingen
 					crailsheim ohringen mergentheim
 					hall
@@ -22219,7 +22218,7 @@ countries = {
 					erbach_swabia 
 					biberach
 					waldburg
-					ravensburg
+					ravensburg horb
 				}
 
 				starting_technology_level = 3
@@ -22257,6 +22256,7 @@ countries = {
 					bruchsal sinsheim mosbach buchen tauberbischofsheim
 					hachberg
 					furstenberg
+					uberlingen
 				}
 
 				starting_technology_level = 3
