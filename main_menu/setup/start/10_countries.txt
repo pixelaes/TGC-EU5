@@ -4564,6 +4564,7 @@ countries = {
 
 			PRU = { #Prussia
 				own_control_core = {
+					lichtenberg_veldenz
 					naumburg
 					eisleben
 					merseburg
@@ -21615,9 +21616,9 @@ countries = {
 					erding rosenheim mallersdorf rottenburg
 					munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
 					pfaffenhofen friedberg ingolstadt neuburg_an_der_donau  burglengenfeld
-					germersheim neustadt_an_der_haardt oppenheim kaiserslautern
+					germersheim neustadt_an_der_haardt kaiserslautern
 					amberg eschenbach neumarkt roding sulzbach #Oberpfalz
-					zweibrucken pirmasens lichtenberg_veldenz landau_rhineland leiningen speyer worms hof
+					zweibrucken pirmasens landau_rhineland leiningen speyer hof
 					laufen muhldorf passau immenstadt
 					dillingen oberdorf sonthofen
 					freising miesbach garmisch
@@ -21647,6 +21648,7 @@ countries = {
 					dinkelsbuhl
 					uffenheim kitzingen
 					rothenburg
+					meisenheim
 				}
 
 				starting_technology_level = 3
@@ -22051,7 +22053,7 @@ countries = {
 
 			HEH = {  # Falkenstein (South Germany)
 				own_control_core = {
-					meisenheim
+					
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -22080,6 +22082,7 @@ countries = {
 					giessen frankenberg
 					nidda
 					lauterbach
+					worms oppenheim
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
