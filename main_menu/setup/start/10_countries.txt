@@ -3443,6 +3443,8 @@ countries = {
 		# Europe
 			CPL = {
 				own_control_core = {
+					brest_litowsk malaryta
+					tykocin mielnik suraz drohiczyn
 					sokolow biala_podlaska wlodawa 
 					chelm krasnystaw ugrovesk grabowiec
 					suwalki lipsk veisiejai lazdijai alytus vilkaviskis panemune
@@ -3450,7 +3452,6 @@ countries = {
 					dobrzyn lipno rypin
 					#Kujavia
 					wloclawek kowal radziejow
-					ostrow_wielkopolski pleszew
 					siewierz
 					#Lesser Poland
 					ksiaz_wielki proszowice
@@ -3459,14 +3460,14 @@ countries = {
 					lublin janow_lubelski kazimierz lukow lubartow urzedow
 					busko_zdroj wislica
 					radom ilza stezyca szydlowiec zwolen
-					sandomierz kunow opatow rudnik_poland
+					kunow opatow
 					#Greater Poland
 					kalisz 
 					konin kolo lad_konin
 
 					# own_control_integrated, but culture accepted
 					#Wielun
-					wielun ostrzeszow wieruszow rawa sochaczew wizna goniadz zambrow ostroleka zakroczym przasnysz
+					wielun wieruszow rawa sochaczew wizna goniadz zambrow ostroleka zakroczym przasnysz
 					rozan lomza kolno biala_rawska ciechanow
 					warsaw grojec czersk liw nur kamieniec garwolin tarczyn
 					plock sierpc szrensk plonsk gostynin gabin
@@ -3846,12 +3847,14 @@ countries = {
 
 			PZN = { #Poznan
 				own_control_core = {
+					czlopa wyrzysk
 					bydgoszcz inowroclaw
 					znin chodziez szubin
 					gniezno mogilno trzemeszno
 					poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
 					pyzdry kozmin sroda_wielkopolska
 					koscian babimost grodzisk_wielkopolski rawicz srem wschowa
+					ostrow_wielkopolski pleszew ostrzeszow
 				}
 
 				own_control_integrated = {
@@ -4636,7 +4639,7 @@ countries = {
 					mayen coblenz saarburg
 					daun cochem
 					kreuznach castellaun
-					naklo wyrzysk zlotow
+					naklo zlotow
 					raciborz #Duchy of Raciborz
 					lubawa chelmno
 					kwidzyn
@@ -4659,7 +4662,7 @@ countries = {
 					stendal osterburg salzwedel gardelegen
 					wittenberge pritzwalk treuenbrietzen
 					angermunde prenzlau
-					torzym swidwin choszczno drawsko czaplinek walcz czlopa santok gorzow
+					torzym swidwin choszczno drawsko czaplinek walcz santok gorzow
 					#Chełmno Land
 					brodnica grudziadz torun
 					#Pomerelia
@@ -6283,7 +6286,6 @@ countries = {
 			RUS = {
 				own_control_core = {
 					liuboml shatsk
-					tykocin
 					kazym sumgut_vosh vezhakary kaltysyany
 					kushva novaya_lyalya turyinskiye_rudniki sosva verkhoturye
 					nizhnyaya_salda
@@ -6523,14 +6525,13 @@ countries = {
 					#Volhynia
 					ratne
 					kremenets dubno zbarazh tykhomel
-					lutsk chortoryisk peremyl rozhyshche stepan volodymyrets
+					lutsk chortoryisk  rozhyshche stepan volodymyrets
 					rivne kostopil ostroh peresopnytsya
-					volodymyr kamin kovel melnytsya turiisk
+					kamin kovel melnytsya turiisk
 					novohrad_volynskyi iziaslav korets liubar polonne
 					#Halych
-					belz busk  sokal
 					brody
-					
+					volodymyr peremyl
 					#Polesia
 					liubeshiv dubrovytsia
 
@@ -6696,7 +6697,7 @@ countries = {
 					nyasvizh
 					babruysk luchin rahachow svietlahorsk
 					#Polesia
-					brest_litowsk chernyany malaryta
+					chernyany
 					kobryn dabuchyn hajnowka kamyenyets
 					#Samogitia
 					medininkai
@@ -6710,7 +6711,7 @@ countries = {
 					palanga rietavas silale skuodas taurage
 					grodek
 					#Podlasie
-					drohiczyn bielsk_podlaski mielnik suraz
+					bielsk_podlaski
 					mazeikiai
 					#Ukraine
 					kyiv dymer fastiv zdvizhen
@@ -6745,8 +6746,7 @@ countries = {
 					kilmez stelty falenki uni ural_nema
 					aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa 
 					ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov
-					bakota horodok kamianets_podilskyi zalishchyky
-					terebovlia khorostkiv ternopil
+					bakota horodok kamianets_podilskyi
 					shuryshkar
 				}
 
@@ -16281,6 +16281,10 @@ countries = {
 
 			HAB = {	
 				own_control_core = {
+					zalishchyky
+					terebovlia khorostkiv ternopil
+					belz busk sokal
+					sandomierz rudnik_poland
 					kotor rovigo
 					fryvaldov slano cetatea_tetina
 					suceava 
