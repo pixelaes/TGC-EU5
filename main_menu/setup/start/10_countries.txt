@@ -4580,7 +4580,7 @@ countries = {
 					wittenberg belzig schweinitz bitterfeld torgau liebenwerda hoyerswerda delitzsch
 					 merzig bitburg 
 					mors
-					essen munster ahaus warendorf horstmar dulmen
+					essen munster ahaus horstmar dulmen
 					hamm altena bochum dortmund rheine tecklenburg
 					arnsberg meschede lippstadt
 					ruppin
@@ -4990,7 +4990,7 @@ countries = {
 
 			BRE = {	#Bremen
 				own_control_core = {
-					bremen
+					bremen bremervorde
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -22053,7 +22053,7 @@ countries = {
 
 			HEH = {  # Falkenstein (South Germany)
 				own_control_core = {
-					
+					hunfeld alsfeld
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -22070,16 +22070,15 @@ countries = {
 					}
 				}
 				country_rank = rank_county
-				capital = friedberg_hesse
+				capital = hunfeld
 				dynasty = falkenstein_dynasty
 			}
 
-			HSD = {  # Katzenelnbogen (North Germany)
+			HSD = { 
 				own_control_core = {
-					darmstadt mainz bensheim offenbach
+					darmstadt bensheim offenbach
 					erbach
-					friedberg_hesse marburg alsfeld
-					giessen frankenberg
+					friedberg_hesse marburg
 					nidda
 					lauterbach
 					worms oppenheim
@@ -22096,6 +22095,7 @@ countries = {
 
 			NAS = {  # Nassau Idstein (North Germany)
 				own_control_core = {
+					mainz
 					wiesbaden katzenelnbogen
 					diez
 					usingen
@@ -22509,7 +22509,7 @@ countries = {
 
 			HAM = {	#Hamburg
 				own_control_core = {
-					hamburg
+					hamburg warendorf
 				}
 
 				starting_technology_level = 3
@@ -22795,13 +22795,15 @@ countries = {
 
 			HSK = {	#Hesse
 				own_control_core = {
+					hofgeismar 
 					kassel rotenburg eschwege melsungen
 					hanau
 					budingen
-					fulda hunfeld
+					fulda
 					hersfeld
 					ziegenhain
 					schmalkalden
+					giessen frankenberg
 				}
 
 				starting_technology_level = 3
@@ -22915,7 +22917,8 @@ countries = {
 
 			BSW = {	#Ravensberg
 				own_control_core = {
-					gifhorn brunswick helmstedt meinersen holzminden gandersheim goslar blankenburg
+					brunswick helmstedt holzminden gandersheim goslar blankenburg
+					wolfenbuttel
 				}
 
 				starting_technology_level = 3
@@ -22950,20 +22953,19 @@ countries = {
 					bentheim
 					leer emden aurich
 					meppen aschendorf
-					wolfenbuttel #Duchy of Braunschweig-Wolfenbüttel
 					hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
 					gottingen #Duchy of Göttingen 
-					stade neuhaus gestenthorpe osterholz achim bremervorde zeven
+					stade neuhaus gestenthorpe osterholz achim zeven
 					osnabruck bersenbruck
 					verden soltau
 					lingen
 					hoya
 					nienburg
 					diepholz
-					hofgeismar 
 					einbeck duderstadt herzberg
 					wernigerode
 					hildesheim alfeld burgdorf
+					meinersen gifhorn
 				}
 
 				starting_technology_level = 3
