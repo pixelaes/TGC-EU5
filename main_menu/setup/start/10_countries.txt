@@ -4717,7 +4717,7 @@ countries = {
 				}
 
 				country_rank = rank_kingdom
-				capital = malbork
+				capital = berlin
 
 				#Setup to accurately portray the starting situation
 				currency_data = {
@@ -6285,6 +6285,7 @@ countries = {
 			#Russia
 			RUS = {
 				own_control_core = {
+					husi tulcea
 					liuboml shatsk
 					kazym sumgut_vosh vezhakary kaltysyany
 					kushva novaya_lyalya turyinskiye_rudniki sosva verkhoturye
@@ -16135,7 +16136,7 @@ countries = {
 					}
 				}
 				country_rank = rank_county
-				capital = the_hague
+				capital = amsterdam
 
 				accepted_cultures = {
 					frisian
@@ -16612,6 +16613,7 @@ countries = {
 
 			WAL = {	#Wallachia
 				own_control_core = {
+					campulung_muscel
 					targoviste ploesti valenii_de_munte arges zimnicea
 					severin stramba targu_jiu targu_bengai ramnicu_valcea craiova
 					caracal calafat slatina turnu_magurele
@@ -16656,7 +16658,7 @@ countries = {
 
 			MOL = {	#Moldova
 				own_control_core = {
-					iasi bacau cotnari dorohoi harlau husi roman stefanesti tutova vaslui
+					iasi bacau cotnari dorohoi harlau roman stefanesti tutova vaslui
 					adjud focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici
 					barlad cudalbi galati oancea targul_saratii tecuci
 				}
@@ -20599,7 +20601,7 @@ countries = {
 					tarnovo drastar tutrakan cherven razgrad shumen aytos targoviste_BUL sliven kran
 					lovech nikopol pleven vratsa kutlovitsa vidin oryahovo bozhenitsa hotalich tryavna
 					anhialo varna karvuna pangalia kaliakra
-					tulcea harsova
+					harsova
 					archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
 					babadag cernavoda constanta enisala isaccea
 					pirot tsaribrod  
@@ -21709,7 +21711,7 @@ countries = {
 					upper_palatine
 				}
 
-				capital = landshut
+				capital = munich
 				dynasty = wittelsbach_dynasty
 			}
 
