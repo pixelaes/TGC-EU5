@@ -13055,7 +13055,7 @@ countries = {
 					negroponte kleisoura karystos kymi oreos eretreia
 					monemvasia mystras oitylo leuktron astros andros mykonos amorgos
 					naxos kythnos milos
-					karpathos sporades
+					sporades
 				}
 
 				starting_technology_level = 3
@@ -13102,6 +13102,54 @@ countries = {
 				own_control_core = {
 					zakynthos leukas cephalonia 
 					corfu kythira
+				}
+
+				starting_technology_level = 3
+				include = "expl_mediterranean"
+				include = "expl_silk_road_west"
+				include = "expl_silk_road_center"
+				include = "expl_silk_road_east"
+				include = "expl_indian_trade_route"
+				include = "catholic_monarchy"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+
+					ruler = ach_robert_taranto
+
+					ruler_term = { character = cep_riccardo_i_orsini start_date = 1194.1.1 end_date = 1197.1.1 regnal_number = 1 }
+					ruler_term = { character = cep_maio_i_orsini start_date = 1197.1.1 end_date = 1238.1.1 regnal_number = 1 }
+					ruler_term = { character = cep_maio_ii_orsini start_date = 1238.1.1 end_date = 1259.1.1 regnal_number = 2 }
+					ruler_term = { character = cep_riccardo_ii_orsini start_date = 1259.1.1 end_date = 1304.1.1 regnal_number = 2 }
+					ruler_term = { character = cep_giovanni_i_orsini start_date = 1304.1.1 end_date = 1317.1.1 regnal_number = 1 }
+					ruler_term = { character = epi_nikolaos_orsini start_date = 1317.1.1 end_date = 1323.1.1 regnal_number = 1 }
+					ruler_term = { character = cep_john_orsini start_date = 1323.1.1 end_date = 1324.1.1 regnal_number = 2 }
+
+					ruler_term = { character = alb_john_gravina start_date = 1324.1.1 end_date = 1336.4.5 regnal_number = 3 }
+					ruler_term = { character = ach_robert_taranto start_date = 1336.4.5 regnal_number = 1 }
+
+					regnal_numbers = {
+						#Margaritus = 1
+						name_matthew = 2
+						name_richard = 2
+						name_john = 3
+						name_charles = 1
+						name_robert = 1
+					}
+				}
+
+				tolerated_cultures = {
+					greek_culture
+				}
+				capital = cephalonia
+				court_language = french_language
+				dynasty = anjou_dynasty
+				#dynasty = anjou_taranto_dynasty
+			}
+
+			ATH = {
+				own_control_core = {
+					mount_athos
 				}
 
 				starting_technology_level = 3
@@ -20536,7 +20584,7 @@ countries = {
 			#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 			OTT = {
 				own_control_core = {
-					
+					karpathos 
 					amasra #Black Sea
 					gradiski_brod dubica bihac srb 
 					akhaltsikhe ardahan
@@ -20610,7 +20658,7 @@ countries = {
 					argyrokastro avlonya konitsa
 					sultanonu bilecik goynuk eynegol inonu nalli sogut
 					servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
-					kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
+					kilkis giannitsa gynaikokastro serres rentina kavala thasos drama xanthia komotini
 					traianopolis demotica lemnos imbros molyvos mitilene gallipoli kesan
 					edirne hayrabolu corlu
 					rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli

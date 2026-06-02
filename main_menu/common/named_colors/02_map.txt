@@ -126,6 +126,7 @@ colors = {
 	map_BAL = rgb { 142 140 84 }
 	map_GRE = rgb { 122 180 210 }
 	map_ION = rgb { 153 141 117 }
+	map_ATH = rgb { 255 222 34 }
 
 # Italy
 	map_SRP_SAV = rgb { 97 209 251 }
