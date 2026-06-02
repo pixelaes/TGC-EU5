@@ -143,6 +143,7 @@ colors = {
 	map_SCI = rgb { 160 30 154 }
 	map_SMR = rgb { 30 144 255 }
 	map_CUO = rgb { 135 205 255 }
+	map_MCR = rgb { 115 134 224 }
 
 # German States
 	map_PZN = rgb { 255 25 40 }

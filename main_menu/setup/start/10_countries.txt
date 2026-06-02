@@ -12090,6 +12090,7 @@ countries = {
 					pistoia
 					prato
 					pitigliano sansepolcro modigliana
+					ficarolo massa pescia
 				}
 
 				own_control_conquered = {
@@ -12250,7 +12251,7 @@ countries = {
 
 			LUC = { #Lucca
 				own_control_core = {
-					lucca massa pescia
+					lucca
 				}
 
 				starting_technology_level = 3
@@ -12311,7 +12312,7 @@ countries = {
 
 			PAR = {
 				own_control_core = {
-					parma berceto sandonnino piacenza bardi fiorenzuola
+					parma berceto sandonnino piacenza bardi fiorenzuola bobbio
 				}
 
 				starting_technology_level = 3
@@ -12365,6 +12366,34 @@ countries = {
 					ruler_term = { character = fer_azzo_viii_este start_date = 1293.2.13 end_date = 1306.1.1 regnal_number = 0 }
 				}
 				capital = modena
+			}
+
+			MCR = {
+				own_control_core = {
+					fosdinovo
+				}
+
+				starting_technology_level = 3
+				include = "expl_mediterranean"
+				include = "expl_silk_road_west"
+				include = "expl_silk_road_center"
+				include = "expl_silk_road_east"
+				include = "expl_indian_trade_route"
+				include = "catholic_republic_not_present"
+				government = {
+					type = republic
+					heir_selection = podesta_elective
+
+					reforms = {
+						signoria_reform
+					}
+
+					ruler_term = { character = pad_guglielmo_rossi start_date = 1281.1.1 end_date = 1282.1.1 regnal_number = 0 }
+
+					ruler_term = { character = fer_obizzo_ii_este start_date = 1288.1.1 end_date = 1293.2.13 regnal_number = 0 }
+					ruler_term = { character = fer_azzo_viii_este start_date = 1293.2.13 end_date = 1306.1.1 regnal_number = 0 }
+				}
+				capital = fosdinovo
 			}
 
 			#Naples
@@ -12496,6 +12525,7 @@ countries = {
 
 			PAP = { # Papal States
 				own_control_core = {
+					montefeltro
 					cittacastello
 					anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
 					corneto orte orvietano viterbo assisi narni rieti spoleto todi
@@ -12511,12 +12541,11 @@ countries = {
 					pesaro
 					marsciano perugia
 					rimini
-					cesena 
-					faenza
+					cesena
 					imola
 					ravenna
 					bologna medicina vergato
-					comacchio ferrara ficarolo argenta
+					comacchio ferrara argenta
 				}
 
 				include = "catholic_bishopric"
@@ -12671,7 +12700,7 @@ countries = {
 					ceva
 					cairo_montenotte finalborgo
 					novi tortona
-					bobbio fosdinovo rovegno
+					rovegno
 				}
 
 				starting_technology_level = 3
@@ -21744,8 +21773,8 @@ countries = {
 			}
 
 			SMR = {	#san marino
-				own_control_core = {
-					montefeltro
+				own_control_core = { 
+					faenza
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
