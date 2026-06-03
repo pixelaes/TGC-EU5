@@ -484,6 +484,17 @@ countries = {
 
 			MEX = {
 				own_control_core = {
+					tu_dotlizh_ndee
+					tchokana
+					kwaaru
+					penatuka
+					paruhuya
+					kanahatino
+					mashgalende
+					tu_sis_nde
+					teyas
+					koke_metchesko_laha
+					tsel_tatli_dsha
 					xaltocan
 					tehotihuacan
 					culhuacan
@@ -1186,27 +1197,22 @@ countries = {
 					flaming_gorge
 					sinclair
 					east_yuttahih
+					piguique
+					cacaxtles
+					bobole
+					sha_ia_nde
+
 				}
 
 				our_cores_conquered_by_others = {
-					cacaxtles
-					koke_metchesko_laha
 					cabias
-					tsel_tatli_dsha
-					piguique
 					capoque
 					karankawa
 					copane
 					mariame
-					tu_sis_nde
-					bobole
 					ndawe_qoha
 					tonkawa
-					kanahatino
-					sha_ia_nde
 					kol_kuka
-					teyas
-					mashgalende
 					melenudo
 					waco
 					nokoni
@@ -1218,10 +1224,6 @@ countries = {
 					yscani
 					tses_tsembai
 					tenawa
-					tchokana
-					penatuka
-					kwaaru
-					paruhuya
 					atajal
 					tchesha
 					aranama
@@ -1316,24 +1318,14 @@ countries = {
 
 			TEX = {
 				own_control_core = {
-					cacaxtles
-					koke_metchesko_laha
 					cabias
-					tsel_tatli_dsha
-					piguique
 					capoque
 					karankawa
 					copane
 					mariame
-					tu_sis_nde
-					bobole
 					ndawe_qoha
 					tonkawa
-					kanahatino
-					sha_ia_nde
 					kol_kuka
-					teyas
-					mashgalende
 					melenudo
 					waco
 					nokoni
@@ -1345,10 +1337,6 @@ countries = {
 					yscani
 					tses_tsembai
 					tenawa
-					tchokana
-					penatuka
-					kwaaru
-					paruhuya
 					atajal
 					tchesha
 					aranama
@@ -6285,6 +6273,7 @@ countries = {
 			#Russia
 			RUS = {
 				own_control_core = {
+					guvrel
 					husi tulcea
 					liuboml shatsk
 					kazym sumgut_vosh vezhakary kaltysyany
