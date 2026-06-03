@@ -1098,8 +1098,21 @@ countries = {
 					wailaki
 					hoilkut
 					oohl
-					chidkhu
+					bear_river_w
+					sweetwater
+					yuttahih
+					nuchiu_range
+					colorado
+					pagayuat newe_wasteland nuwuvi_desert nuwuvi_wasteland toyabe inyo_mountains sierra_nevada_c sierra_nevada_s chumash_ranges grand_canyon arapaho dzil_ligai_mountains madre_mountains viga_mountains fria_mountains lobos_mountains popocatepetl_mountains citlaltepetl_mountains chimalapa_jungle
+					klamath_range
+					nomlaki_range
+					chumawi_range
+					atsa_kudok_wa
+					gidi_tika
+					moadokado
 					natinixwe
+					tosa_konoki
+					panati
 					amblu_kai
 					tsnungwe
 					wintu
@@ -16348,6 +16361,11 @@ countries = {
 
 			HAB = {	
 				own_control_core = {
+					dinaric_alps9
+					southern_carpathians3
+					southern_carpathians4
+					eastern_carpathians5
+					eastern_carpathians6
 					zalishchyky
 					terebovlia khorostkiv ternopil
 					belz busk sokal
@@ -16679,6 +16697,8 @@ countries = {
 
 			WAL = {	#Wallachia
 				own_control_core = {
+					southern_carpathians1
+					southern_carpathians2
 					campulung_muscel
 					targoviste ploesti valenii_de_munte arges zimnicea
 					severin stramba targu_jiu targu_bengai ramnicu_valcea craiova
@@ -16724,6 +16744,7 @@ countries = {
 
 			MOL = {	#Moldova
 				own_control_core = {
+					eastern_carpathians5b
 					iasi bacau cotnari dorohoi harlau roman stefanesti tutova vaslui
 					adjud focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici
 					barlad cudalbi galati oancea targul_saratii tecuci
