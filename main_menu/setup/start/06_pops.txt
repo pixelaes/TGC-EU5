@@ -9299,6 +9299,7 @@ peyre = {
 	define_pop = {	type = peasants	size = 22.394	culture = auvergnat	religion = catholic }
 }
 massif_central = {
+	define_pop = {	type = peasants	size = 1.000	culture = auvergnat	religion = catholic }
 }
 narbonne = {
 	define_pop = {	type = nobles	size = 0.035	culture = languedocien	religion = catholic }

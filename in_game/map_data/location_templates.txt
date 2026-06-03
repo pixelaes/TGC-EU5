@@ -2197,7 +2197,7 @@ chateauneuf_de_randon = { topography = plateau vegetation = woods climate = cont
 florac = { topography = hills vegetation = woods climate = oceanic religion = catholic culture = auvergnat raw_material = silk}
 mende = { topography = hills vegetation = woods climate = oceanic religion = catholic culture = auvergnat raw_material = lead}
 peyre = { topography = plateau vegetation = woods climate = continental religion = catholic culture = auvergnat raw_material = lumber}
-massif_central = { topography = hills_wasteland vegetation = woods climate = arctic}
+massif_central = { topography = hills vegetation = woods climate = arctic religion = catholic culture = auvergnat raw_material = lumber}
 narbonne = { topography = flatland vegetation = grasslands climate = mediterranean religion = catholic culture = languedocien raw_material = salt natural_harbor_suitability = 0.00}
 agde = { topography = flatland vegetation = grasslands climate = mediterranean religion = catholic culture = languedocien raw_material = wine natural_harbor_suitability = 0.00}
 beziers = { topography = hills vegetation = grasslands climate = mediterranean religion = catholic culture = languedocien raw_material = fruit natural_harbor_suitability = 0.00}
