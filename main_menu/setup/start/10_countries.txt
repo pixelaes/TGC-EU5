@@ -4568,6 +4568,7 @@ countries = {
 
 			PRU = { #Prussia
 				own_control_core = {
+					neufchateau_luxembourg st_vith
 					schleusingen
 					apolda
 					lichtenberg_veldenz
@@ -6816,7 +6817,7 @@ countries = {
 					nuurvik uataaq kivualinagmut uivvak kali
 					kachemak kenai dgheyaytnu k_enakatnu tyonek iliamna susitna
 					daxunhyuu taatiilaaq caniqaq nanwalek nuciiq
-					t_aaku jilkaat aa_kw xunaa shee_t_ika xutsnoowu
+					xunaa shee_t_ika
 
 					# Fort Ross
 					kashaya
@@ -16222,6 +16223,52 @@ countries = {
 				}
 			}
 
+			#Moresnet
+			MRT = {
+				own_control_core = {
+					limbourg
+				}
+
+				starting_technology_level = 3
+				include = "expl_western_europe"
+				include = "catholic_monarchy"
+				include = "german_principality"
+				government = {
+					ruler = hai_guillaume_de_hainault
+
+					ruler_term = { character = hai_jean_ii_de_hainault start_date = 1299.11.10 end_date = 1304.8.22 regnal_number = 2 }
+					ruler_term = { character = hai_guillaume_de_hainault start_date = 1304.8.22 regnal_number = 3 }
+
+					regnal_numbers = {
+						name_gerulf = 1
+						name_theodoric = 7
+						name_arnulf = 1
+						name_florence = 5
+						name_ada = 1
+						name_william = 3
+						name_john = 2
+					}
+
+					aristocracy_vs_plutocracy = 20
+					serfdom_vs_free_subjects = 20
+					mercantilism_vs_free_trade = 30
+					land_vs_naval = 20
+					capital_economy_vs_traditional_economy = -10
+					individualism_vs_communalism = -20
+					outward_vs_inward = 0
+
+					reforms = {
+						feudal_nobility
+					}
+				}
+				country_rank = rank_county
+				capital = amsterdam
+
+				accepted_cultures = {
+					frisian
+				}
+			}
+
 			#Zeeland - Union under Holland
 			ZEE = {
 				own_control_core = {
@@ -16282,10 +16329,9 @@ countries = {
 					namur
 					liege dinant walcourt tournai
 					hasselt bree borgloon
-					bastogne orchimont la_roche neufchateau_luxembourg st_vith arlon
+					bastogne orchimont la_roche arlon
 					bouillon
 					stavelot
-					limbourg
 					luxembourg vianden
 					maastricht roermond venlo weert
 				}
@@ -16372,7 +16418,6 @@ countries = {
 					sandomierz rudnik_poland
 					kotor rovigo
 					fryvaldov slano cetatea_tetina
-					suceava 
 					vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
 					bregenz scharding ried braunau
 					dubrovnik waidhofen skofja_loka metkovic 
@@ -16744,6 +16789,7 @@ countries = {
 
 			MOL = {	#Moldova
 				own_control_core = {
+					suceava 
 					eastern_carpathians5b
 					iasi bacau cotnari dorohoi harlau roman stefanesti tutova vaslui
 					adjud focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici
