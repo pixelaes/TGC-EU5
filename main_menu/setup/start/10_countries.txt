@@ -6802,21 +6802,17 @@ countries = {
 
 			RAC = {
 				own_control_core = {
-					# Alaska
-					agw_aneq su_naq kasukuak swikshak amalik alinchak
-					chignik kangi_asinaq qagiigun qagaan unimax qawalangin
-					akuugun niigugis naahmigus qaxun sasignan amiq
-					aniakchak ugashik egegik qarr_unaq igiugig nuuriileng
-					aguyaq akokpaq koliaganeq baleknagiq igushiq togiaq
-					mamterat quinhagaq iiq mamterilleq kwigilingoq kalskaq
-					nunapichuq tununaq kaghasuq niugtaq ce_vaq mekoryuq
-					marayaarmiut imangaq qerrulliiq tapqaq unalakleet ungaliq
-					malemiut kuuyuk qikiqtagruk kuugaaluk kongashuk
-					sinjik nachirvik kigluaik anakovik
-					sivuqaq savoonga kitagnaq st_matthew
-					nuurvik uataaq kivualinagmut uivvak kali
-					kachemak kenai dgheyaytnu k_enakatnu tyonek iliamna susitna
-					daxunhyuu taatiilaaq caniqaq nanwalek nuciiq
+
+					igushiq kalskaq koyukuk manley unalakleet qagiigun
+					mekoryuq kwigilingoq kaghasuq tununaq niugtaq ce_vaq marayaarmiut imangaq
+					amiq st_matthew sivuqaq savoonga kitagnaq
+					unimax qawalangin niigugis naahmigus qaxun sasignan
+					
+					kasukuak su_naq agw_aneq
+					igiugig
+
+					kenai kachemak
+					nanwalek caniqaq
 					xunaa shee_t_ika
 
 					# Fort Ross
