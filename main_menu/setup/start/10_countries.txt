@@ -14059,6 +14059,12 @@ countries = {
 
 			SPA = {
 				own_control_core = {
+					puigcerda
+					south_eastern_pyrenees
+					central_pyrenees
+					south_western_pyrenees3
+					south_western_pyrenees2
+					south_western_pyrenees1
 					avila adrada arevalo las_navas oropesa villatoro
 					burgos aranda_de_duero briviesca castrojeriz lerma logrono miranda_de_ebro najera sto_domingo_silos villadiego villarcayo
 					palencia aguilar_de_campoo carrion_de_los_condes monzon_campos palenzuela saldana reinosa
@@ -14097,7 +14103,6 @@ countries = {
 					jativa alcoy alicante denia elche orihuela
 					valencia gandia ayora bunol chelva lliria
 					elizondo estella olite roncesvalles sanguesa tudela viana laguardia
-					saint_jean_pied_de_port #Gascony
 					jumilla
 					pamplona
 					palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
@@ -14213,6 +14218,7 @@ countries = {
 
 			POR = {
 				own_control_core = {
+					estrela_mountains
 					lagos faro silves tavira
 					evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
 					coimbra besteiros castelo_branco covilha esgueira feira guarda idanha lamego meda pinhel proenca_nova sabugal seia trancoso viseu
@@ -14611,6 +14617,10 @@ countries = {
 
 			FRA = {
 				own_control_core = {
+					north_eastern_pyrenees2
+					north_eastern_pyrenees1
+					north_western_pyrenees
+					saint_jean_pied_de_port #Gascony
 					#Appanages
 					wallerfangen bitche
 					#Poitou (Own by the ruler)
@@ -14766,7 +14776,7 @@ countries = {
 					# own_control_integrated, but culture accepted
 					clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
 					blois beaugency chateaudun romorantin st_aignan
-					puigcerda prades #County of Cerdanya
+					prades #County of Cerdanya
 					perpignan #County of Roselló
 					montpellier #Lordship of Montpellier
 					brest
@@ -20874,7 +20884,6 @@ countries = {
 			}
 
 
-			#Jalayirids - JAL https://en.wikipedia.org/wiki/Jalayirid_Sultanate
 			IRA = {
 				own_control_core = {
 					gorgan aliabad_katul etrek incheh_borun minudasht mubarakabad nardin

@@ -1,0 +1,17 @@
+diplomacy_manager = {
+    dependency = { first = PRU second = PZN subject_type = vassal }
+    dependency = { first = RUS second = CPL subject_type = vassal }
+    dependency = { first = RUS second = FIN subject_type = vassal }
+    dependency = { first = RUS second = KUR subject_type = vassal }
+    dependency = { first = RUS second = LIV subject_type = vassal }
+    dependency = { first = RUS second = ESH subject_type = vassal }
+    dependency = { first = RUS second = TCA subject_type = vassal }
+    dependency = { first = TCA second = ABK subject_type = vassal }
+    dependency = { first = TCA second = SVN subject_type = vassal }
+    dependency = { first = TCA second = MGL subject_type = vassal }
+    dependency = { first = OTT second = MOL subject_type = vassal }
+    dependency = { first = OTT second = WAL subject_type = vassal }
+    dependency = { first = OTT second = EGY subject_type = vassal }
+    dependency = { first = SWE second = NOR subject_type = vassal }
+
+}
