@@ -18,12 +18,16 @@ countries = {
 
 			UCA = {
 				own_control_core = {
+					cockscomb_jungle tawahka_jungle indio_maiz_jungle chiriqui_mountains chiriqui_jungle
+					xunantunich tzoite campin paliac
+					chiapas_mountains cuchumatanes_mountains
+					huehuetan tonala_chiapas
 					acasaguastlan chiquimula cuauhtemallan guazacapan itzalku
 					xelahuh kakol_kiej itzcuintlan atitlan_guatemala
-					jolom_konob zapaluta tzunun_kaab otzoya chinabajul pismachi
+					jolom_konob tzunun_kaab otzoya chinabajul pismachi
 					chama seacal kajyub nito toquegua
-					noh_peten namaan yax_mutal pachan wak_kabnal
-					ceibal ixtutz pusilha 
+					noh_peten
+					ceibal pusilha 
 					talanga tecohtzincalpan comayagua maniani
 					tencoa ocotepec opoa cururu shalatenan
 					chinda naco yoro ticamaya
@@ -484,7 +488,9 @@ countries = {
 
 			MEX = {
 				own_control_core = {
-					tu_dotlizh_ndee
+					ajusco_mountains tepozan_mountains toluca_mountains colima_mountains
+					reno nuchiu_range
+					tu_dotlizh_ndee zapaluta
 					tchokana
 					kwaaru
 					penatuka
@@ -732,10 +738,8 @@ countries = {
 					zinacantan
 					pochutla
 					tila
-					tonala_chiapas
 					napinaica
 					jaltenango
-					huehuetan
 					baak
 					cupilco
 					zahuatan
@@ -1420,6 +1424,10 @@ countries = {
 
 			USA = {
 				own_control_core = {
+					bighorn_mountains hot_springs grass_creek hinono_ei moneta split_rock milk_creek
+					ruby_valley great_belt_mountains little_belt_mountains ashalaho
+					shoshonne dukundeka washakie pushroot wamsutter
+					beaverhead elkhorn red_rock penointikara gazzllatin
 					wolastoq
 					madawaska
 					shawmut
@@ -2244,7 +2252,6 @@ countries = {
 					kyaiyesisahtai
 					onnikisisaahtaayi
 					mahpahpahazhhah
-					nataeosueti
 					rockies_mt
 					shuntaneshnanga
 					kansas
@@ -7883,7 +7890,7 @@ countries = {
 						cairiani alubera waitu_kubuli hewanorra ichirouganaim kamahuya youloumain
 
 					# Belize
-						tzunuun altun_ha lamanai xunantunich uxwitza campin tzoite paliac
+						altun_ha colha
 
 					# Mosquito Coast
 						karawala awastara ahuya_yari
@@ -8547,9 +8554,10 @@ countries = {
 						akimiski
 					
 					# Oregon
-						stlpulmsh chehalis chala_at sklallam twana makah
-						wishram klikitat mamachatpam pa_kiut_lema wanapum
-						aqanqmi yaqan_nukiy akinkumasnuqit aq_am akisq_nuk kananmituk
+						sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges
+						stlpulmsh chehalis chala_at sklallam twana makah n_pooh_le
+						wishram klikitat mamachatpam pa_kiut_lema
+						akinkumasnuqit aq_am akisq_nuk kananmituk
 						akinka_nup aqyam_nup ainu_nik ktunwakanmituk aknuq_uk yakyu_ki
 						puyallup kittikas duwamish snohomish skagit nisqually
 						nooksack lhaq_temish sto_lo sts_ailes whonnock katzie
