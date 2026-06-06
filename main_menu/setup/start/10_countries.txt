@@ -489,7 +489,7 @@ countries = {
 			MEX = {
 				own_control_core = {
 					ajusco_mountains tepozan_mountains toluca_mountains colima_mountains
-					reno nuchiu_range
+					reno c_nuchiu_range
 					tu_dotlizh_ndee zapaluta
 					tchokana
 					kwaaru
@@ -1424,6 +1424,9 @@ countries = {
 
 			USA = {
 				own_control_core = {
+					cumberland_mountains cumberland_mountains_3 cumberland_mountains_4 cumberland_mountains_5
+					st_francois_mts ouachita_mts cohutta_mountains
+					cumberland_mountains_6 cumberland_mountains_7 cumberland_mountains_8 cumberland_mountains_9 blue_ridge_mountains blue_ridge_mountains_2 shenandoah_mountains
 					bighorn_mountains hot_springs grass_creek hinono_ei moneta split_rock milk_creek
 					ruby_valley great_belt_mountains little_belt_mountains ashalaho
 					shoshonne dukundeka washakie pushroot wamsutter
@@ -3451,6 +3454,7 @@ countries = {
 		# Europe
 			CPL = {
 				own_control_core = {
+					piskorowice
 					brest_litowsk malaryta
 					tykocin mielnik suraz drohiczyn
 					sokolow biala_podlaska wlodawa 
@@ -6541,7 +6545,6 @@ countries = {
 					kamin kovel melnytsya turiisk
 					novohrad_volynskyi iziaslav korets liubar polonne
 					#Halych
-					brody
 					volodymyr peremyl
 					#Polesia
 					liubeshiv dubrovytsia
@@ -8554,6 +8557,7 @@ countries = {
 						akimiski
 					
 					# Oregon
+						north_cascade
 						sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges
 						stlpulmsh chehalis chala_at sklallam twana makah n_pooh_le
 						wishram klikitat mamachatpam pa_kiut_lema
@@ -16421,6 +16425,7 @@ countries = {
 
 			HAB = {	
 				own_control_core = {
+					brody
 					dinaric_alps9
 					southern_carpathians3
 					southern_carpathians4
@@ -16442,7 +16447,7 @@ countries = {
 					brixen bled
 					feldkirchen
 					cernauti
-					storozhynets putna siret campulung_moldovenesc vatra_dornei
+					storozhynets putna siret campulung_moldovenesc
 					krnov #Duchy of Krnov
 					opava #Duchy of Opava
 					goito mantova ostiglia
@@ -16550,7 +16555,7 @@ countries = {
 					drohobych sambir stryi turka
 					kolomyia kosiv sniatyn tysmenytsia
 					lviv bereschany zhovkva yavoriv zvenyhorod
-					przemysl piskorowice rzeszow yaroslav_poland
+					przemysl rzeszow yaroslav_poland
 					sanok krosno lesko
 					zhydachiv bolekhiv dolyna
 					chioggia venice mestre
@@ -16803,6 +16808,7 @@ countries = {
 
 			MOL = {	#Moldova
 				own_control_core = {
+					vatra_dornei
 					suceava 
 					eastern_carpathians5b
 					iasi bacau cotnari dorohoi harlau roman stefanesti tutova vaslui
