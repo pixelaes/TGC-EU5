@@ -13736,6 +13736,9 @@
  name_william.name_raymond.sicilian_dialect.diminutive: "Gugghiermuni"
  name_william.name_raymond.south_italian_language.diminutive: "Guglielmone"
  #
+ name_frederick_william: "Frederick William"
+ name_frederick_william.german_language: "Friedrich Wilhelm"
+ #
  name_williametta: "Williametta"
  name_williametta.basque_language: "Guilemina"
  name_williametta.catalan_dialect: "Guillemina"

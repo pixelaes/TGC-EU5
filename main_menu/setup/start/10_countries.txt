@@ -2364,7 +2364,7 @@ countries = {
 				}
 				starting_technology_level = 3
 				government = {
-					ruler = random
+					ruler = usa_andrew_jackson
 
 					type = republic
 					heir_selection = oligarchic_elective
@@ -3493,9 +3493,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = cpl_ivan_paskevich
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = cpl_ivan_paskevich start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -3682,9 +3682,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = esh_paul_friedrich_von_benckendorff
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = esh_paul_friedrich_von_benckendorff start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -3744,9 +3744,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = liv_georg_friedrich_von_folkesahm
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = liv_georg_friedrich_von_folkesahm start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -3805,9 +3805,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = kur_christoph_engelbrecht_von_brevern
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = kur_christoph_engelbrecht_von_brevern start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -4703,7 +4703,7 @@ countries = {
 					ruler = pru_friedrich_wilhelm_iii
 					ruler_term = { character = pru_friedrich_wilhelm_iii start_date = 1335.4.18 regnal_number = 3	}
 					regnal_numbers = {
-						name_william = 3
+						name_frederick_william = 3
 					}
 
 					centralization_vs_decentralization = 20
@@ -4736,25 +4736,6 @@ countries = {
 				currency_data = {
 					war_exhaustion = 5
 				}
-			}
-
-			HSA = {	#Hansa
-				type = building
-				starting_technology_level = 3
-
-				capital = lubeck
-				include = "hansa"
-				government = {
-					type = republic
-					heir_selection = oligarchic_elective
-					laws = {
-						marriage_law = monogamous_marriage
-						heir_religion_law = heir_same_religion
-					}
-					ruler = random
-				}
-				country_rank = rank_duchy
-				include = "expl_northern_europe"
 			}
 
 			LUB = {	#Lübeck

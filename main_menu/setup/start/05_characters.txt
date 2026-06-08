@@ -2,18 +2,70 @@
 
 character_db={
 
+	kur_christoph_engelbrecht_von_brevern = {
+		first_name = { name = Christoph_Engelbrecht  }
+		last_name = { name = von_Brevern }
+		culture = muscovite
+		religion = orthodox
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1300.1.1
+		birth = moscow
+		tag = KUR
+	}
 
+	liv_georg_friedrich_von_folkesahm = {
+		first_name = { name = Georg_Friedrich  }
+		last_name = { name = von_Fölkesahm }
+		culture = muscovite
+		religion = orthodox
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1300.1.1
+		birth = moscow
+		tag = LIV
+	}
+
+	esh_paul_friedrich_von_benckendorff = {
+		first_name = { name = Paul_Friedrich }
+		last_name = { name = von_Benckendorff }
+		culture = muscovite
+		religion = orthodox
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1300.1.1
+		birth = moscow
+		tag = ESH
+	}
+
+	cpl_ivan_paskevich = {
+		first_name = { name = name_john.ruthenian_language }
+		last_name = { name = Paskevich }
+		culture = muscovite
+		religion = orthodox
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1300.1.1
+		birth = moscow
+		tag = CPL
+	}
+
+	usa_andrew_jackson = {
+		first_name = { name = name_andrew.english_language }
+		last_name = { name = Jackson }
+		culture = brandenburgish
+		religion = lutheran
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1300.1.1
+		birth = berlin
+		tag = USA
+	}
 	
 	pru_friedrich_wilhelm_iii = {
-		first_name = { name = name_william.german_language }
+		first_name = { name = name_frederick_william.german_language }
 		culture = brandenburgish
-		religion = catholic
+		religion = lutheran
 		adm = 50 dip = 50 mil = 50
 		birth_date = 1300.1.1
 		birth = berlin
 		dynasty = bjalbo_atten_dynasty
 		tag = PRU
-
 	}
 
 	#

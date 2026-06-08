@@ -12,42 +12,19 @@ international_organization_manager = {
 
 		map_color = hsv360 { 40 50 70 }
 
-		members = { UBV HAB LBV SLZ TIR BRC BAM PSS GRF FRE TNT CLI ORT PAL REG BOH BRA TRI AUG WUR MEI MAG HES MAI LOR HAI ALS TUL VDU MTZ SLM ABA ASD ATI CEV CHX CNV MTB BLL BNT HBG
-		COT CRR FLO GEN LUC MAN MFA MLO MND MSP PAR PAV PIE PIS PRA SAL SAV GNV SIE PTG TTN VLT HOL BRB LUX LIE CHN LIM NAM LOO VBG HRN CJK BSC VER MOU DAU ORA VLN FRT BXN
-		UTR FRI DIT HSA LUB LBB THU BRE BRM BRG SAA STE HNB SPY PLN GLA SOR SPB SWB RUP HVB SWR WRN MKL RZB GSW WOL KMM LAU HAM HBS BBG ANH BNB MFE MRB NMB QUB WMA SWZ SCL AQU PRO
-		FLD SHS NHS MLH ERF HSF PDB ZIG HNA BUD WTZ DIE FRN ERB WRM SYE ZWE LNN SPO SYN KOL DUN APR AAC JUL GEL ZUT GMK WTG DTM ESS MRS KLE ANB LPP HOX RVB MDN OSN TCK MUN OSW
-		LUN BRU GBH HDH GOS SCB HOY NIE DPH VRD RTB OLD ZAG JAW LGC OEL OPL TES BYM RCB MVA AGC WER MBZ MFK BCH STG ZUR SYZ LCA URI OBW LCU SIT BRN SLT NEU BAS LSA KYB TRN ANS PAD
-		EIC WEI NUR WBG RIE MSB UFF ROT DNB MEM KMP ULM KNZ OET SWH HBR BDE WDB RVA BIB UBL HHB FBG OFB WLD PRZ BRD ACC LDB GOR FCB ALL ZEE CAM STV HTR HPL NWG SWD 
-		SCI ZIE BRZ NMS STZ NMD WRC GLO NYS OPV SIZ PDK VUD BMS BLB HSP BSK MSO WGO BHL GLN AOS RBG FLK NSI RDL NID MDS LDA TGG GRY VEL PSZ SFC CFC MUR HAG MUL LIC WDE NSH NSS 
-		BLM DIS EVS FUR GRK HAC JEV SAW SAB THD WIE ELL HEH HLF HOH KIR NEL TUB KTZ NSW LEU PST }
-		leader = UBV
+		members = { HAB PRU BAV HAN LAU SHL SAX HOS MST WUR BDE HOH HEH SML HSK HSD NAS FRN LPP WDE BSW AHD AHB AHK SZS SZR RAL RJL SCG SWM SAB SMN LTS LUB BRE MKL HAM OLD }
+		leader = HAB
 		regions = { south_german_region }
 		areas = { 
 			#North Germany
-			brabant_area friesland_area holland_area wallonia_area holstein_area brandenburg_area rhineland_area
+			holstein_area brandenburg_area rhineland_area
 			hesse_area westphalia_area lower_saxony_area upper_saxony_area mecklenburg_area
-			#France
-			alsace_area franche_comte_area savoy_area
-			#Italy
-			liguria_area lombardy_area piemonte_area  
 			#Poland
 			silesia_area
 		}
 		provinces = { 
-			#Burgundy
-			bresse_province
-			#Emilia Romagna
-			piacenza_province parma_province reggioem_province modena_province
-			#Lorraine
-			pays_messin_province pays_nancy_province sarregueminois_province verdunois_province vosges_province
 			#Pomerania
 			schwerin_province vorpommern_province stettin_province koslin_province pyritz_province stolp_province
-			#Provence
-			aquisextain_province dignois_province dracenois_province nice_province
-			#Tuscany
-			florence_province grosseto_province lucca_province pisa_province siena_province
-			#Veneto
-			belluno_province friuli_province verona_province vicenza_province
 			#Slovenia
 			lower_styria_province lower_carniola_province upper_carniola_province 
 		}
@@ -69,42 +46,25 @@ international_organization_manager = {
 			slawno slupsk miastko nowoszczecin drawsko choszczno
 			tolmin gorizia 
 		}
-		emperor = { UBV }
+		emperor = { HAB }
 		elector = { 
 				# The 4 secular
-				BOH	#Bohemia
-				SWB # Saxony-Wittenberg
-				BRA # Brandenburg
-				PAL # Palatinate
+				PRU	#Bohemia
+				HAN # Saxony-Wittenberg
+				BAV # Brandenburg
+				HAB # Palatinate
 		}
 		archbishop_elector = {
 				# The 3 bishops
-				TRI	# Trier
-				KOL # Cologne
-				MAI # Mainz
+				BDE	# Trier
+				WUR # Cologne
+				SAX # Mainz
 		}
 		free_city = {
-			AAC BRM FRN GOS HAM KNZ MEM NUR REG ROT RVA ULM SYE LUB DTM AGC KMP WTZ WRM BRN BSC ZUR LDA SFC CFC MUL
-			#Should be but can't because they only have "rural settlements"
-			# MLH BIB NHS OFB SWH WDB WEI SLT TUL
-		}
-		imperial_peasant_republic = {
-			FRI
-		}
-		imperial_prelate = { 
-			EIC WBG AUG PSS SLZ BAM BCH SIT BAS LSA FRE BRC SPY WLD ALS MTZ HVB RZB KMM HBS MRB NMB FLD HSF PDB APR
-			ESS HOX MDN OSN MUN HDH VRD UTR CAM STV SCL AQU BRE MOU MAG BMS BLB MUR HAG
+			FRN HAM BRE LUB
 		}
 		imperial_prince = {
-			HAB LBV GRF TNT CLI ORT WUR HES LOR SLM CEV MTB BNT CRR FLO MFA MSP
-			PIE PRA SAL SAV GNV PTG HOL BRB LUX LIE CHN LIM NAM LOO VBG HRN CJK DAU ORA VLN
-			FRT BXN HSA LBB THU BRG SAA STE HNB PLN GLA SOR SPB RUP SWR WRN MKL GSW WOL LAU BBG ANH BNB MFE QUB 
-			WMA SWZ PRO SHS ERF ZIG HNA BUD DIE ERB ZWE LNN SPO SYN DUN JUL GEL ZUT GMK WTG MRS KLE ANB LPP GLN
-			RVB TCK OSW LUN BRU GBH SCB HOY NIE DPH RTB OLD ZAG JAW LGC OEL OPL TES BYM RCB MVA WER MBZ MFK
-			KYB TRN ANS RIE MSB UFF DNB OET HBR BDE HHB FBG BSK AOS
-			PRZ BRD LDB GOR FCB ALL ZEE HTR HPL NWG SWD SCI ZIE BRZ NMS STZ NMD WRC GLO NYS OPV SIZ PDK VUD HSP WGO BHL
-			RBG FLK NSI RDL NID MDS TGG GRY VEL PSZ LIC WDE MSO NSH NSS BLM DIS EVS FUR GRK HAC JEV SAW SAB THD WIE
-			ELL HEH HLF HOH KIR NEL TUB LEU
+			LAU SHL HOS MST HOH HEH SML HSK HSD NAS LPP WDE BSW AHD AHB AHK SZS SZR RAL RJL SCG SWM SAB SMN LTS MKL OLD
 		}
 		
 		laws = {
