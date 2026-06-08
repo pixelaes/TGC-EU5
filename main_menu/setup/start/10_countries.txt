@@ -3895,6 +3895,8 @@ countries = {
 
 			SWE = {
 				own_control_core = {
+					skanderna
+					s_jamtland_wasteland n_jamtland_wasteland
 					laholm asbo idre 
 					sveg hede
 
@@ -3919,15 +3921,14 @@ countries = {
 
 					harnosand solatunum ramsele sjalevad anundsjo grundsunda
 
-					umea vindeln skelleftea tornea bygdea pitea lulea ranea gratesk hienatiemi branna byske bodebyn alvsby kiemi pajala kittila rovaniemi
-
+					umea vindeln skelleftea tornea bygdea pitea lulea ranea gratesk hienatiemi branna byske bodebyn alvsby pajala
 					asele lycksele arvidsjaur volgsjo stensele tarna ortrask
 
 					akkajaur arjeplog silbojock sorsele
 
 					storavan uddjaur socksjock jokkmokk kvikkjock porjus gellivaara sarek
 
-					nikkaluokta kasivarren torne_trask vastenjaure akkajaure abisko raunala mourionska enontakis nunnanen korpilombo juckasjarvi
+					nikkaluokta kasivarren torne_trask vastenjaure akkajaure raunala mourionska korpilombo juckasjarvi
 
 					varberg halmstad kungsbacka
 					ronneby bregne solvesborg
@@ -4202,6 +4203,8 @@ countries = {
 
 			FIN = {
 				own_control_core = {
+					nurmes valkeasaari kyyrola
+					enontakis nunnanen kasivarren kittila rovaniemi kiemi
 					abo poytis sauvo nystad
 					helsinge ekenas sjundea porvoo kymi_fi
 					vyborg villmanstrand veckelax vederlax beryozovskoye
@@ -4232,7 +4235,9 @@ countries = {
 
 			NOR = {
 				own_control_core = {
-
+					kautokeino karasjok
+					hattfjelldal rana abisko
+					hardangervidda norway_wasteland_c jotunheim norway_wasteland_b norway_wasteland_a
 					moss halden borg trogstad
 					oslo ski eidsvoll
 					tonsberg skien sande grenland
@@ -4307,6 +4312,7 @@ countries = {
 
 			ICE = {
 				own_control_core = {
+					icelandic_highlands hofsjokull langjokull vattnajokull eyjafjallajokull
 					holar husavik akureyri blonduos torshofn
 					vopnafjordur egilsstadir seydisfjordur reydarfjordur holmur kirkjubaejar
 					borgarnes olavsvik isafjordur hvamstangi
@@ -4333,6 +4339,7 @@ countries = {
 
 			GRL = {
 				own_control_core = {
+					arsuk ivituut gronnedal kangeq godthab lysufjord sandnes kapisillit anavik
 					gardr brattahlid dyrnes hvalsey einarsfjord vatnahverfi
 					herjolfsnes petursvik lundey altafjord ketilsfjord siglufjord
 				}
@@ -4386,7 +4393,7 @@ countries = {
 					vindeln raisa
 					kautokeino varanger vardo deatnu porsanger karasjok hammerfest alta
 					asele lycksele sorsele arvidsjaur arjeplog silbojock volgsjo stensele tarna ortrask akkajaur hattfjelldal
-					pajala socksjock jokkmokk kvikkjock porjus gellivaara juckasjarvi mourionska enontakis raunala abisko sarek korpilombo nikkaluokta kasivarren
+					pajala socksjock jokkmokk kvikkjock porjus gellivaara juckasjarvi mourionska enontakis raunala abisko sarek korpilombo nikkaluokta 
 					suonikyla koliskoj maaselka luujarvi akkala mootka pechenga prirechnyi nuorttijarvi
 					alakurti kiestinki uhtuo jyskyjarvi paanajarvi repola ontajarvi pieninka
 
@@ -5077,6 +5084,7 @@ countries = {
 
 			SLW = { #Slesvig
 				own_control_core = {
+					amrum_island_wasteland
 					eckernforde slesvig flensburg aabenraa haderslev
 					ribe tonder
 					husum
@@ -6279,6 +6287,11 @@ countries = {
 			#Russia
 			RUS = {
 				own_control_core = {
+					siberian_wasteland_3 siberian_wasteland_2 perm_forest_3 sverdlovsk_forest_1 siberian_wasteland_1 perm_forest ural_mountains ural_forest ural_mountains2 siberian_wasteland_4 yamal siberian_wasteland_11
+					solovetsky
+					russian_wastelands_4 russian_wastelands_1 russian_wastelands_6 russian_wastelands_5 russian_wastelands_2 russian_wastelands_9 russian_wastelands_7 russian_wastelands_10 russian_wastelands_8 kanin_peninsula kolguyev yuzhny west_siberian_forests nenets
+					kondpoga shyoltozero
+					lapland_taiga2 lapland_taiga3 lapland_taiga4 kola_taiga karelia_taiga1 karelia_taiga2
 					guvrel
 					husi tulcea
 					liuboml shatsk
@@ -6414,7 +6427,6 @@ countries = {
 					kola dalniye_zelentsy kiltina luujarvi maaselka ponoi semiostrov svyatoy_nos
 					umba kantalahti kashkarantsy olenitsa pyalitsa raivke tetrino varzuga
 					pechenga akkala alakurti koliskoj mootka nuorttijarvi prirechnyi suonikyla
-					valkeasaari kyyrola
 					trubchevsk
 					rylsk
 					starodub_siverskyi klintsy ropsk radogosch
@@ -7757,6 +7769,7 @@ countries = {
 
 			GBI = { # England
 				own_control_core = {
+					dartmoor brecon_beacons cambrian_mountains berwyn_range snowdon north_york_moors pennines_01 pennines_02 pennines_03 pennines_04 pennines_05 pennines_06 scilly_isles wicklow_mountains ochil_hills ben_nevis cairngorm carn_eige fannichs ben_klibreck
 					# Earldom of Chester
 					# cornwall
 					launceston truro bodmin
@@ -12517,6 +12530,7 @@ countries = {
 
 			PAP = { # Papal States
 				own_control_core = {
+					central_apennines1 central_apennines5
 					montefeltro
 					cittacastello
 					anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
@@ -12666,7 +12680,8 @@ countries = {
 
 			SRP = { # Sardinia-Piedmont
 				own_control_core = {
-					chambery  saint_jean_de_maurienne
+					gennargentu_mountains
+					chambery saint_jean_de_maurienne
 					moutiers evian
 					cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania pragelato cuneo nice puget_theniers
 					sassari
@@ -12805,6 +12820,7 @@ countries = {
 
 			TSC = { # Two Sicilies
 				own_control_core = {
+					central_apennines2 central_apennines3 central_apennines4 central_apennines6 central_apennines7 southern_apennines mount_etna
 					catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
 					corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
 					aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
@@ -14052,6 +14068,7 @@ countries = {
 
 			SPA = {
 				own_control_core = {
+					nevada_range filambres_range subbetic_range segura_range madrona_range iberian_system francia_mountains bejar_mountains western_central_system eastern_central_system1 eastern_central_system2 eastern_central_system3 urbion_peaks demanda_range moncayo_range cabrera_range leon_mountains ancares_range west_cantabrian_mountains east_cantabrian_mountains picos_de_europa
 					puigcerda
 					south_eastern_pyrenees
 					central_pyrenees
@@ -14610,6 +14627,7 @@ countries = {
 
 			FRA = {
 				own_control_core = {
+					dore_mountains massif_central vivarais_mountains vercors_massif corsican_mountains
 					north_eastern_pyrenees2
 					north_eastern_pyrenees1
 					north_western_pyrenees
@@ -16406,6 +16424,7 @@ countries = {
 
 			HAB = {	
 				own_control_core = {
+					western_carpathians1 western_carpathians2 inner_carpathians eastern_carpathians1 eastern_carpathians2 eastern_carpathians3 eastern_carpathians4 eastern_carpathians7 eastern_carpathians6c eastern_carpathians8
 					brody
 					dinaric_alps9
 					southern_carpathians3
