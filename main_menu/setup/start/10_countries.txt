@@ -12681,6 +12681,7 @@ countries = {
 
 			SRP = { # Sardinia-Piedmont
 				own_control_core = {
+					lepontine_alps1 cottian_alps2 ligurian_alps cottian_alps3 graian_alps1 graian_alps2 pennine_alps1
 					gennargentu_mountains
 					chambery saint_jean_de_maurienne
 					moutiers evian
@@ -14628,6 +14629,7 @@ countries = {
 
 			FRA = {
 				own_control_core = {
+					cottian_alps1 dauphine_alps2 dauphine_alps1 maritime_alps1
 					dore_mountains massif_central vivarais_mountains vercors_massif corsican_mountains
 					north_eastern_pyrenees2
 					north_eastern_pyrenees1
@@ -16425,6 +16427,7 @@ countries = {
 
 			HAB = {	
 				own_control_core = {
+					rhaetian_alps3 rhaetian_alps2 lechtal_alps1 lechtal_alps2 otztal_alps2 otztal_alps1 venediger_group bavarian_alps1 tauern_range1 bavarian_alps2 tauern_range2 julian_alps dolomite_alps3 dolomite_alps2 dolomite_alps7 dolomite_alps1 dolomite_alps6 dolomite_alps4 dolomite_alps5 rhaetian_alps7 rhaetian_alps8 rhaetian_alps6 rhaetian_alps5
 					western_carpathians1 western_carpathians2 inner_carpathians eastern_carpathians1 eastern_carpathians2 eastern_carpathians3 eastern_carpathians4 eastern_carpathians7 eastern_carpathians6c eastern_carpathians8
 					brody
 					dinaric_alps9
@@ -22081,6 +22084,7 @@ countries = {
 
 			SWI = {
 				own_control_core = {
+					silvretta_alps rhaetian_alps4 rhaetian_alps1 lepontine_alps2 pennine_alps2 bernese_alps stein_glacier glarner_alps
 					ilanz
 					geneve
 					yverdon_les_bains nyon montreux monthey
