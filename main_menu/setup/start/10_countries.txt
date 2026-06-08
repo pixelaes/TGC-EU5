@@ -4916,19 +4916,12 @@ countries = {
 				include = "german_principality"
 				government = {
 
-					ruler = mei_friedrich_ii_meissen
-					consort = mei_mathilde_von_bayern
+					ruler = sax_anthony
 
-					ruler_term = {	character = mei_albrecht_ii_the_degenerate_meissen start_date = 1288.1.1 end_date = 1291.1.1 regnal_number = 2	}
-					ruler_term = {	character = mei_friedrich_the_bitten_meissen start_date = 1291.1.1 end_date = 1323.1.1 regnal_number = 1	}
-					ruler_term = {	character = mei_friedrich_ii_meissen start_date = 1323.1.1 regnal_number = 2	}
+					ruler_term = {	character = sax_anthony start_date = 1827.5.5 }
 
 					regnal_numbers = {
-						name_frederick = 2
-					}
-
-					reforms = {
-						margraviate
+						name_frederick_augustus = 1
 					}
 
 					laws = {
@@ -4942,12 +4935,9 @@ countries = {
 
 				}
 
-				country_rank = rank_county
-				capital = meissen
+				country_rank = rank_kingdom
+				capital = dresden
 				dynasty = wettin_dynasty
-				tolerated_cultures = {
-					sorbian
-				}
 			}
 
 			MAG = {	#Magdeburg
@@ -6790,10 +6780,12 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-					ruler_term = { character = mos_daniil_aleksandrovich_rurikovich start_date = 1263.11.14 regnal_number = 1 end_date = 1303.5.4 }
-					ruler_term = { character = mos_yury_danilovich_rurikovich start_date = 1303.5.4 regnal_number = 1 end_date = 1325.11.21 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
+					ruler = rus_nicholas_i
+					ruler_term = { character = rus_nicholas_i start_date = 1825.12.1 regnal_number = 1 }
+					regnal_numbers = {
+						name_nicholas = 1
+						name_alexander = 1
+					}
 				}
 
 				liturgical_language = church_slavonic_language
@@ -6826,12 +6818,9 @@ countries = {
 				country_rank = rank_county
 
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-					ruler_term = { character = mos_daniil_aleksandrovich_rurikovich start_date = 1263.11.14 regnal_number = 1 end_date = 1303.5.4 }
-					ruler_term = { character = mos_yury_danilovich_rurikovich start_date = 1303.5.4 regnal_number = 1 end_date = 1325.11.21 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
+					ruler = rac_ivan_kupreyanov
 				}
 
 				liturgical_language = church_slavonic_language
@@ -6839,170 +6828,6 @@ countries = {
 				capital = xunaa
 				include = "russian_principality_no_coast"
 				include = "expl_novgorod"
-			}
-
-			#Principality of Pereyaslavl-Zalessky
-			PZL = {
-				our_cores_conquered_by_others = {
-					pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_kingdom
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-
-					ruler_term = { character = kie_vsevolod_iii_rurikovich start_date = 1175.1.1 end_date = 1176.1.1 regnal_number = 1 }
-					ruler_term = { character = kie_yaroslav_iii_rurikovich start_date = 1246.1.1 end_date = 1246.10.30 regnal_number = 1 }
-					ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1246.10.30 end_date = 1263.11.14 regnal_number = 1 }
-
-					ruler_term = { character = yar_fyodor_rostislavich_cherny_rurikovich start_date = 1293.1.1 end_date = 1294.1.1 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = pereyaslavl
-				include = "russian_principality_no_coast_not_present"
-				include = "expl_novgorod"
-			}
-
-			#Principality of Kolomna
-			KLM = {
-				our_cores_conquered_by_others = {
-					kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_kingdom
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = kolomna
-				include = "russian_principality_no_coast_not_present"
-				include = "expl_novgorod"
-			}
-
-			#Grand Principality of Vladimir
-			#Personal Union under Moscovy
-			VLR = {
-				own_control_core = {
-				}
-
-				own_control_integrated = {
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_duchy
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-					
-					#ruler_term = {	character = kie_vsevolod_iii_rurikovich start_date = 1176.6.20 end_date = 1212.4.15 regnal_number = 1	}
-					#ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1216.1.1 end_date = 1218.1.1 regnal_number = 1 }	
-					#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1246.1.1 end_date = 1248.1.1 regnal_number = 1 }
-					#ruler_term = { character = vlr_andrey_yaroslavich_rurikovich start_date = 1248.1.1 end_date = 1252.1.1 regnal_number = 1 }
-					#ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1252.1.1 end_date = 1263.1.1 regnal_number = 1 }
-					#ruler_term = { character = psk_aleksandr_mikhailovich_rurikovich start_date = 1326.1.1 end_date = 1327.1.1 regnal_number = 1 }
-					ruler_term = { character = szl_alexander_vasilyevich_rurikovich start_date = 1328.1.1 end_date = 1332.1.1 regnal_number = 1 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1332.1.1 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				country_rank = rank_kingdom
-				capital = vladimir
-				include = "russian_principality_no_coast"
-				include = "expl_novgorod"
-			}
-
-			#Principality of Uglich
-			#Personal Union under Moscovy
-			UGL = {
-				own_control_core = {
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_duchy
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-
-					#ruler_term = { character = rso_dmitry_borisovich_rurikovich start_date = 1285.1.1 end_date = 1288.1.1 regnal_number = 1 }
-					#ruler_term = { character = rso_konstantin_borisovich_rurikovich start_date = 1288.1.1 end_date = 1294.1.1 regnal_number = 1 }
-					#ruler_term = { character = rso_alexander_konstantinovich_rurikovich start_date = 1294.1.1 end_date = 1307.1.1 regnal_number = 1 }
-					#ruler_term = { character = rso_yuri_alexandrovich_rurikovich start_date = 1307.1.1 end_date = 1320.1.1 regnal_number = 1 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = uglich
-				include = "russian_principality_no_coast"
-				include = "expl_novgorod"
-			}
-
-			#Principality of Yuriev
-			YRV = {
-				own_control_core = {
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_duchy
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = yrv_yaroslav_ivanovich_rurikovich
-
-					#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1214.1.1 end_date = 1230.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_dmitriy_svyatoslavich_rurikovich start_date = 1253.1.1 end_date = 1269.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_yaroslav_dmitrevich_rurikovich start_date = 1269.1.1 end_date = 1279.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_ivan_dmitrevich_rurikovich start_date = 1279.1.1 end_date = 1310.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_yaroslav_ivanovich_rurikovich start_date = 1310.1.1 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = yuryev_polsky
-				include = "russian_principality_no_coast"
-				include = "expl_novgorod"
-			}
-
-			ORE = {
-				own_control_core = {
-				}
-				starting_technology_level = 3
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = pok_narimantas_gediminds
-					ruler_term = {	 character = pok_narimantas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-				}
-
-				liturgical_language = church_slavonic_language
-
-				tolerated_cultures = {
-					ingrian
-					karelian
-				}
-
-				country_rank = rank_duchy
-				capital = oreshek
-				include = "russian_principality"
-				include = "expl_novgorod"
-
 			}
 
 
@@ -8732,64 +8557,12 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_iii
+					ruler = gbi_han_william_iv
 
-					ruler_term = {	 character = eng_alfred_the_great start_date = 886.1.1 end_date = 899.10.26 regnal_number = 0	}
-					ruler_term = {	 character = eng_edward_the_elder start_date = 899.10.26 end_date = 924.7.17 regnal_number = 0	}
-					ruler_term = {	 character = eng_athelstan_the_glorious start_date = 924.7.17 end_date = 939.10.27 regnal_number = 0	}
-					ruler_term = {	 character = eng_edmund_the_magnificent start_date = 939.10.27 end_date = 946.5.26 regnal_number = 0	}
-					ruler_term = {	 character = eng_eadred start_date = 946.5.26 end_date = 955.11.23 regnal_number = 0	}
-					ruler_term = {	 character = eng_eadwig start_date = 955.11.23 end_date = 959.10.1 regnal_number = 0	}
-					ruler_term = {	 character = eng_edgar_the_peaceful start_date = 959.10.1 end_date = 975.7.8 regnal_number = 0	}
-					ruler_term = {	 character = eng_edward_the_martyr start_date = 975.7.8 end_date = 978.3.18 regnal_number = 0	}
-					ruler_term = {	 character = eng_ethelred_the_unready start_date = 978.3.18 end_date = 1013.12.25 regnal_number = 0	}
-
-					ruler_term = {	 character = eng_sweyn_forkbeard start_date = 1013.12.25 end_date = 1014.2.3 regnal_number = 0	}
-
-					ruler_term = {	 character = eng_ethelred_the_unready start_date = 1014.2.3 end_date = 1016.4.23 regnal_number = 0	}
-
-					ruler_term = { character = eng_edmund_ironside start_date = 1016.4.23 end_date = 1016.10.18 regnal_number = 0 }
-					ruler_term = {
-						character = eng_edmund_ironside start_date = 1016.10.18 end_date = 1016.11.30 regnal_number = 0
-						character = eng_cnut_the_great start_date = 1016.10.18 end_date = 1016.11.30 regnal_number = 0
-					}
-
-					ruler_term = { character = eng_cnut_the_great start_date = 1016.11.30 end_date = 1035.11.12 regnal_number = 0 }
-					ruler_term = { character = eng_harold_harefoot start_date = 1035.11.12 end_date = 1040.3.17 regnal_number = 0 }
-
-					ruler_term = { character = eng_harthacnute start_date = 1040.3.17 end_date = 1042.5.8 regnal_number = 0 }
-					ruler_term = {
-						character = eng_harthacnute start_date = 1042.5.8 end_date = 1042.6.8 regnal_number = 0
-						character = eng_edward_the_confessor start_date = 1042.5.8 end_date = 1042.6.8 regnal_number = 0
-					}
-
-					ruler_term = { character = eng_edward_the_confessor start_date = 1042.6.8 end_date = 1066.1.5 regnal_number = 0 }
-
-					ruler_term = {	 character = eng_harold_godwinson start_date = 1066.1.6 end_date = 1066.10.14 regnal_number = 0	}
-
-					# regnal numbering usually starts with the Norman Invasion
-					ruler_term = {	 character = eng_william_the_conquerer start_date = 1066.12.25 end_date = 1087.9.9 regnal_number = 1	}
-					ruler_term = {	 character = eng_william_ii_rufus start_date = 1087.9.26 end_date = 1100.7.2 regnal_number = 2	}
-					ruler_term = {	 character = eng_henry_i start_date = 1100.7.5 end_date = 1135.12.1 regnal_number = 1	}
-
-					ruler_term = {	 character = eng_stephen_i start_date = 1135.12.22 end_date = 1154.10.25 regnal_number = 1	}
-
-					ruler_term = {	 character = eng_henry_ii_curtmantle start_date = 1154.12.19 end_date = 1189.7.6 regnal_number = 2	}
-					ruler_term = {	 character = eng_richard_i_lionheart start_date = 1189.9.3 end_date = 1199.4.6 regnal_number = 1	}
-					ruler_term = {	 character = eng_john_lackland start_date = 1199.5.27 end_date = 1216.10.19 regnal_number = 1	}
-
-					ruler_term = {	 character = eng_henry_iii start_date = 1216.10.28 end_date = 1272.11.16 regnal_number = 3	}
-					ruler_term = {	 character = eng_edward_i start_date = 1272.11.20 end_date = 1307.7.8 regnal_number = 1	}
-					ruler_term = {	 character = eng_edward_ii start_date = 1307.7.8 end_date = 1327.1.20 regnal_number = 2	}
-					ruler_term = {	 character = eng_edward_iii start_date = 1327.1.25 regnal_number = 3 }
+					ruler_term = {	 character = gbi_han_william_iv start_date = 1830.6.26 regnal_number = 4 }
 
 					regnal_numbers = {
-						name_william = 2
-						name_henry = 3
-						name_stephen = 1
-						name_richard = 2
-						name_john = 1
-						name_edward = 3
+						name_william = 4
 					}
 
 					reforms = {
@@ -12718,36 +12491,10 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = sav_aymon_savoy
+					ruler = srp_charles_albert
 
-					ruler_term = { character = sav_humbert_i_savoy start_date = 1027.1.1 end_date = 1042.7.1 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_i_savoy start_date = 1042.7.1 end_date = 1051.1.1 regnal_number = 1 }
-					ruler_term = { character = sav_othon_i_savoy start_date = 1051.1.1 end_date = 1060.1.1 regnal_number = 1 }
-					ruler_term = { character = sav_pierre_i_savoy start_date = 1060.1.1 end_date = 1078.7.9 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_ii_savoy start_date = 1078.7.9 end_date = 1080.1.26 regnal_number = 2 }
-					ruler_term = { character = sav_humbert_ii_savoy start_date = 1080.1.26 end_date = 1103.10.19 regnal_number = 2 }
-					ruler_term = { character = sav_amedee_iii_savoy start_date = 1103.10.19 end_date = 1148.8.30 regnal_number = 3 }
-					ruler_term = { character = sav_humbert_iii_savoy start_date = 1148.8.30 end_date = 1189.3.4 regnal_number = 3 }
-					ruler_term = { character = sav_thomas_i_savoy start_date = 1189.3.4 end_date = 1233.3.1 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_iv_savoy start_date = 1233.3.1 end_date = 1253.6.24 regnal_number = 4 }
-					ruler_term = { character = sav_boniface_savoy start_date = 1253.6.24 end_date = 1263.6.11 regnal_number = 1 }
-					ruler_term = { character = sav_pierre_ii_savoy start_date = 1263.6.11 end_date = 1268.5.16 regnal_number = 2 }
-					ruler_term = { character = sav_philippe_i_savoy start_date = 1268.5.16 end_date = 1285.8.15 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_v_savoy start_date = 1285.8.15 end_date = 1323.10.16 regnal_number = 5 }
-					ruler_term = { character = sav_edouard_i_savoy start_date = 1323.10.16 end_date = 1329.11.4 regnal_number = 1 }
-					ruler_term = { character = sav_aymon_savoy start_date = 1329.11.4 regnal_number = 2 }
+					ruler_term = { character = srp_charles_albert start_date = 1831.4.27 regnal_number = 1 }
 
-					regnal_numbers = {
-						name_humbert = 3
-						name_amadeus = 5
-						name_otto = 1
-						name_peter = 2
-						name_thomas = 1
-						name_boniface = 1
-						name_philip = 1
-						name_edward = 1
-						name_haimo = 1
-					}
 				}
 
 				tolerated_cultures = {
@@ -12755,7 +12502,7 @@ countries = {
 				}
 
 				country_rank = rank_county
-				capital = chambery
+				capital = turin
 			}
 
 			#Principality of Piedmont - PIE
@@ -14845,11 +14592,6 @@ countries = {
 					narbonne
 					aleria bastia calvi corte ajaccio sartene vico bonifacio #Corsica
 				}
-				own_control_integrated = {
-				}
-
-				own_control_conquered = {
-				}
 
 				own_control_colony = {
 					# Algeria
@@ -14870,71 +14612,12 @@ countries = {
 				government = {
 					heir_selection = salic_law
 
-					ruler = fra_philip_vi_valois
+					ruler = fra_louis_philippe
 
-					ruler_term = { character = fra_pepin_the_short start_date = 751.10.9 end_date = 768.9.24 regnal_number = 1 }
-					ruler_term = { character = fra_charlemagne start_date = 768.9.24 end_date = 814.1.28 regnal_number = 1 }
-					ruler_term = { character = fra_louis_i start_date = 814.1.28 end_date = 840.6.20 regnal_number = 1 }
-					ruler_term = { character = fra_charles_ii start_date = 840.6.20 end_date = 877.10.6 regnal_number = 2 }
-					ruler_term = { character = fra_louis_ii start_date = 877.10.6 end_date = 879.4.10 regnal_number = 2 }
-					ruler_term = { character = fra_louis_iii start_date = 879.4.11 end_date = 882.8.5 regnal_number = 3 }
-					ruler_term = { character = fra_carloman_ii start_date = 882.8.5 end_date = 884.12.12 regnal_number = 1 }
-					ruler_term = { character = fra_charles_iii start_date = 884.12.12 end_date = 888.1.13 regnal_number = 3 }
-
-					ruler_term = { character = fra_odo start_date = 888.2.29 end_date = 898.1.3 regnal_number = 1 }
-
-					ruler_term = { character = fra_charles_iii start_date = 898.1.3 end_date = 922.6.29 regnal_number = 3 } # Second reign
-
-					ruler_term = { character = fra_robert start_date = 922.6.29 end_date = 923.6.15 regnal_number = 1 }
-
-					ruler_term = { character = fra_rudolph start_date = 923.7.1 end_date = 936.1.15 regnal_number = 1 }
-
-					ruler_term = { character = fra_louis_iv start_date = 936.6.19 end_date = 954.9.10 regnal_number = 4 }
-					ruler_term = { character = fra_lothair start_date = 954.10.12 end_date = 986.3.2 regnal_number = 2 }
-					ruler_term = { character = fra_louis_v start_date = 986.3.8 end_date = 987.5.22 regnal_number = 5 }
-
-					ruler_term = { character = fra_hugues_capet start_date = 987.7.3 end_date = 996.10.24 regnal_number = 1 }
-					ruler_term = { character = fra_robert_ii_capet start_date = 996.10.24 end_date = 1031.7.20 regnal_number = 2 }
-					ruler_term = { character = fra_henri_i_capet start_date = 1031.7.20 end_date = 1060.8.4 regnal_number = 1 }
-					ruler_term = { character = fra_philippe_i_capet start_date = 1060.8.4 end_date = 1108.7.29 regnal_number = 1 }
-					ruler_term = { character = fra_louis_vi_capet start_date = 1108.9.18 end_date = 1137.8.1 regnal_number = 6 }
-					ruler_term = { character = fra_louis_vii_capet start_date = 1137.8.1 end_date = 1180.9.18 regnal_number = 7 }
-					ruler_term = { character = fra_philippe_ii_auguste_capet start_date = 1180.9.18 end_date = 1223.7.14 regnal_number = 2 }
-					ruler_term = { character = fra_louis_viii_capet start_date = 1223.7.14 end_date = 1226.11.8 regnal_number = 8 }
-					ruler_term = { character = fra_louis_ix_capet start_date = 1226.11.8 end_date = 1270.8.25 regnal_number = 9 }
-					ruler_term = { character = fra_philippe_iii_capet start_date = 1270.8.25 end_date = 1285.10.5 regnal_number = 3 }
-					ruler_term = { character = fra_philippe_iv_capet start_date = 1285.10.5 end_date = 1314.11.29 regnal_number = 4 }
-					ruler_term = { character = fra_louis_x_capet start_date = 1314.11.29 end_date = 1316.6.5 regnal_number = 10 }
-					ruler_term = { character = fra_jean_i_capet start_date = 1316.11.15 end_date = 1316.11.20 regnal_number = 1 }
-					ruler_term = { character = fra_philippe_v_capet start_date = 1316.11.20 end_date = 1322.1.3 regnal_number = 5 }
-					ruler_term = { character = fra_charles_iv_capet start_date = 1322.1.3 end_date = 1328.3.21 regnal_number = 4 }
-
-					ruler_term = { character = fra_philip_vi_valois start_date = 1328.4.1 regnal_number = 6 }
+					ruler_term = { character = fra_louis_philippe start_date = 1830.8.9 regnal_number = 1 }
 
 					regnal_numbers = {
-						#Clovis = 4
-						#Clodomir = 1
-						name_theodoric = 4
-						#Thibert = 2
-						name_thobald = 1
-						#Childebert = 4
-						#Clotaire = 5
-						#Caribert = 1
-						#Sigebert = 1
-						#Childéric = 3
-						#Gontran = 1
-						#Dagobert = 3
-						name_pepin = 1
-						name_carloman = 2
-						name_otto = 1
-						name_charles = 4
-						name_henry = 1
-						name_hugh = 1
-						name_john = 1
-						name_louis = 10
-						name_philip = 6
-						name_robert = 2
-						name_lothar = 2
+						name_louis.name_philip = 1
 					}
 
 					centralization_vs_decentralization = 85
@@ -16425,7 +16108,7 @@ countries = {
 				capital = liege
 			}
 
-			HAB = {	
+			HAB = {		
 				own_control_core = {
 					rhaetian_alps3 rhaetian_alps2 lechtal_alps1 lechtal_alps2 otztal_alps2 otztal_alps1 venediger_group bavarian_alps1 tauern_range1 bavarian_alps2 tauern_range2 julian_alps dolomite_alps3 dolomite_alps2 dolomite_alps7 dolomite_alps1 dolomite_alps6 dolomite_alps4 dolomite_alps5 rhaetian_alps7 rhaetian_alps8 rhaetian_alps6 rhaetian_alps5
 					western_carpathians1 western_carpathians2 inner_carpathians eastern_carpathians1 eastern_carpathians2 eastern_carpathians3 eastern_carpathians4 eastern_carpathians7 eastern_carpathians6c eastern_carpathians8
@@ -16566,46 +16249,18 @@ countries = {
 					pola rovinj pag zadar split brac
 				}
 
-				own_control_integrated = {
-				}
-
-				own_control_conquered = {
-				}
-
 				starting_technology_level = 3
 				include = "expl_western_europe"
 				include = "catholic_monarchy_no_coast"
 				include = "german_principality"
 				government = {
 
-					ruler = hab_albrecht_ii_habsburg
-					consort = frt_johanna_pfirt
+					ruler = hab_ferdinand_i
 
-					ruler_term = { character = hab_rudolf_i_habsburg start_date = 1276.11.1 end_date = 1282.12.1 regnal_number = 1 }
-					ruler_term = {
-						character = hab_albrecht_i_habsburg start_date = 1282.12.1 end_date = 1283.6.1 regnal_number = 1 # As Co-Ruler
-						character = boh_rudolf_ii_habsburg start_date = 1282.12.1 end_date = 1283.6.1 regnal_number = 2 # As Co-Ruler
-					}
-					ruler_term = { character = hab_albrecht_i_habsburg start_date = 1283.6.1 end_date = 1298.11.21 regnal_number = 1 }
-					ruler_term = {
-						character = hab_albrecht_i_habsburg start_date = 1298.11.21 end_date = 1307.7.3 regnal_number = 1
-						character = boh_rudolf_habsburg start_date = 1298.11.21 end_date = 1307.7.3 regnal_number = 3
-					}
-					ruler_term = { character = hab_albrecht_i_habsburg start_date = 1307.7.3 end_date = 1308.5.1 regnal_number = 1 }
-					ruler_term = {
-						character = hab_friedrich_i_habsburg start_date = 1308.5.1 end_date = 1326.2.28 regnal_number = 1 # As Co-Ruler
-						character = hab_leopold_i_habsburg start_date = 1308.5.1 end_date = 1326.2.28 regnal_number = 1 # As Co-Ruler
-					}
-					ruler_term = { character = hab_friedrich_i_habsburg start_date = 1326.2.28 end_date = 1330.1.13 regnal_number = 1 }
-					ruler_term = { character = hab_albrecht_ii_habsburg start_date = 1330.1.13 regnal_number = 2 }
-					#ruler_term = { character = hab_otto_habsburg start_date = 1330.1.13 regnal_number = 1 } # As Co-Ruler
+					ruler_term = { character = hab_ferdinand_i start_date = 1835.3.2 regnal_number = 1 }
 
 					regnal_numbers = {
-						name_rudolf = 3
-						name_albert = 2
-						name_frederick = 1
-						name_leopold = 1
-						name_otto = 1
+						name_ferdinand = 1
 					}
 
 					#societal values
@@ -21818,9 +21473,9 @@ countries = {
 				include = "catholic_monarchy_no_coast"
 				include = "expl_northern_europe"
 				include = "german_principality"
-				country_rank = rank_duchy
+				country_rank = rank_kingdom
 				government = {
-					ruler = lbv_heinrich_xiv_wittelsbach
+					ruler = bav_ludwig_i
 
 					ruler_term = { character = lbv_heinrich_xiii_wittelsbach start_date = 1253.11.29 end_date = 1290.2.3 regnal_number = 13 }
 					ruler_term = {
@@ -21846,20 +21501,9 @@ countries = {
 						character = lbv_heinrich_xiv_wittelsbach start_date = 1333.6.18 end_date = 1334.12.14 regnal_number = 14
 						character = lbv_otto_iv_wittelsbach start_date = 1333.6.18 end_date = 1334.12.14 regnal_number = 4 # As Co-Ruler
 					}
-					ruler_term = { character = lbv_heinrich_xiv_wittelsbach start_date = 1334.12.14 regnal_number = 14 }
+					ruler_term = { character = bav_ludwig_i start_date = 1825.10.13 regnal_number = 1 }
 					regnal_numbers = {
-						name_stephen = 1
-						name_henry = 14
-						name_otto = 4
-						name_louis = 4
-						name_rudolf = 1
-						name_leopold = 1
-						name_welf = 2
-						name_conrad = 2
-						name_berthold = 1
-						name_everard = 1
-						name_arnulf = 1
-						name_leopold = 1
+						name_louis = 1
 					}
 				}
 
@@ -22391,17 +22035,16 @@ countries = {
 				include = "german_principality"
 				government = {
 					regnal_numbers = {
-						name_ulrick = 3
-						name_everard = 2
+						name_william = 1
 					}
-					ruler = wur_ulrich_iii_wurttemberg
+					ruler = wur_wilhelm_i
 				}
 
 				tolerated_cultures = {
 					rhine_franconian
 				}
 
-				country_rank = rank_county
+				country_rank = rank_kingdom
 				capital = stuttgart
 				dynasty = wurttemberg_dynasty
 			}
@@ -22428,27 +22071,18 @@ countries = {
 				include = "expl_northern_europe"
 				include = "german_principality"
 				government = {
-					regnal_numbers = {
-						name_herman = 9
-						name_frederick = 2
-					}
-					ruler = bde_hermann_ix_baden
-					ruler_term = {	 character = bde_friedrich_ii_baden start_date = 1291.6.22 end_date = 1333.6.22 regnal_number = 2	}
-					ruler_term = {	 character = bde_hermann_ix_baden start_date = 1333.6.22 regnal_number = 9	}
+					ruler = bde_leopold
+					ruler_term = {	 character = bde_leopold start_date = 1830.3.30 }
 
-
-					reforms = {
-						margraviate
-					}
 				}
 
 				tolerated_cultures = {
 					rhine_alemannic
 				}
 
-				country_rank = rank_county
-				capital = baden
-				dynasty = baden_dynasty
+				country_rank = rank_duchy
+				capital = durlach
+				dynasty = zahringen_dynasty
 			}
 
 			SOR = { #Lusatia
@@ -23151,10 +22785,6 @@ countries = {
 					}
 					ruler_term = { character = lun_johann_i_braunschweig_luneburg start_date = 1269.1.1 end_date = 1277.12.13 regnal_number = 1 }
 					ruler_term = { character = lun_otto_ii_luneburg start_date = 1277.12.13 end_date = 1330.4.10 regnal_number = 2 }
-					ruler_term = {
-						character = lun_otto_iii_luneburg start_date = 1330.4.10 regnal_number = 3 
-						#character = lun_wilhelm_ii_luneburg start_date = 1330.4.10 regnal_number = 2 # As Co-Ruler
-					}
 
 					regnal_numbers = {
 						name_william = 2

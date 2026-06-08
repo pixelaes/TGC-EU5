@@ -38,6 +38,29 @@ muscovite = {
 	}
 }
 
+alyaskan = {
+	language = russian_dialect
+	color = map_RAC_dominion0_1
+	
+	tags = { russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		muscovite = positive
+		smolenskian_culture = positive
+		ryazanian = kindred
+		crimean = negative
+		mishar = enemy
+		astrakhani = negative
+		kazani = enemy  
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
 ryazanian = {
 	language = russian_dialect
 	color = map_RYA

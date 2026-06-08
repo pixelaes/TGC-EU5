@@ -2,13 +2,112 @@
 
 character_db={
 
+	srp_charles_albert = {
+		first_name = { name = name_charles.name_albert.north_italian_language }
+		culture = piedmontese
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1798.10.2
+		birth = turin
+		dynasty = savoy_dynasty
+		tag = SRP
+	}
+
+	fra_louis_philippe = {
+		first_name = { name = name_louis.name_philip.french_language }
+		culture = french
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1773.10.6
+		birth = paris
+		dynasty = de_orleans_dynasty
+		tag = FRA
+	}
+
+	rac_ivan_kupreyanov = {
+		first_name = { name = name_john.east_slavic_language }
+		last_name = { name = Kupreyanov }
+		culture = muscovite
+		religion = orthodox
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1794.1.1
+		birth = moscow
+		tag = RAC
+	}
+
+	rus_nicholas_i = {
+		first_name = { name = name_nicholas.east_slavic_language }
+		culture = muscovite
+		religion = orthodox
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1796.7.6
+		birth = moscow
+		dynasty = romanov_dynasty
+		tag = RUS
+	}
+
+	bde_leopold = {
+		first_name = { name = name_leopold }
+		culture = brandenburgish
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1790.8.29
+		birth = durlach
+		dynasty = zahringen_dynasty
+		tag = WUR
+	}
+
+	wur_wilhelm_i = {
+		first_name = { name = name_william.german_language }
+		culture = brandenburgish
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1781.9.27
+		birth = zielona_gora
+		dynasty = wurttemberg_dynasty
+		tag = WUR
+	}
+
+	sax_anthony = {
+		first_name = { name = name_anthony.german_language }
+		culture = brandenburgish
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1755.12.27
+		birth = dresden
+		dynasty = wettin_dynasty
+		tag = SAX
+	}
+	
+	gbi_han_william_iv = {
+		first_name = { name = name_william }
+		culture = english
+		religion = anglican
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1765.8.21
+		birth = london
+		dynasty = hanover_dynasty
+		tag = GBI
+	}
+	
+	bav_ludwig_i = {
+		first_name = { name = name_louis.german_language }
+		culture = brandenburgish
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1786.8.25
+		birth = munich
+		dynasty = wittelsbach_dynasty
+		tag = BAV
+	}
+
 	kur_christoph_engelbrecht_von_brevern = {
-		first_name = { name = Christoph_Engelbrecht  }
+		first_name = { name = Christoph_Engelbrecht }
 		last_name = { name = von_Brevern }
 		culture = muscovite
 		religion = orthodox
 		adm = 50 dip = 50 mil = 50
-		birth_date = 1300.1.1
+		birth_date = 1782.12.17
 		birth = moscow
 		tag = KUR
 	}
@@ -19,7 +118,7 @@ character_db={
 		culture = muscovite
 		religion = orthodox
 		adm = 50 dip = 50 mil = 50
-		birth_date = 1300.1.1
+		birth_date = 1764.11.10
 		birth = moscow
 		tag = LIV
 	}
@@ -30,7 +129,7 @@ character_db={
 		culture = muscovite
 		religion = orthodox
 		adm = 50 dip = 50 mil = 50
-		birth_date = 1300.1.1
+		birth_date = 1784.12.7
 		birth = moscow
 		tag = ESH
 	}
@@ -41,7 +140,7 @@ character_db={
 		culture = muscovite
 		religion = orthodox
 		adm = 50 dip = 50 mil = 50
-		birth_date = 1300.1.1
+		birth_date = 1782.5.19
 		birth = moscow
 		tag = CPL
 	}
@@ -52,9 +151,31 @@ character_db={
 		culture = brandenburgish
 		religion = lutheran
 		adm = 50 dip = 50 mil = 50
-		birth_date = 1300.1.1
-		birth = berlin
+		birth_date = 1767.3.15
+		birth = catawba
 		tag = USA
+	}
+	
+	hab_ferdinand_i = {
+		first_name = { name = name_ferdinand }
+		culture = brandenburgish
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1793.4.19
+		birth = vienna
+		dynasty = habsburg_dynasty
+		tag = HAB
+	}
+	
+	hab_franz_joseph_i = {
+		first_name = { name = Franz_Joseph }
+		culture = brandenburgish
+		religion = catholic
+		adm = 50 dip = 50 mil = 50
+		birth_date = 1830.8.18
+		birth = vienna
+		dynasty = habsburg_dynasty
+		tag = HAB
 	}
 	
 	pru_friedrich_wilhelm_iii = {
@@ -62,9 +183,9 @@ character_db={
 		culture = brandenburgish
 		religion = lutheran
 		adm = 50 dip = 50 mil = 50
-		birth_date = 1300.1.1
+		birth_date = 1770.8.3
 		birth = berlin
-		dynasty = bjalbo_atten_dynasty
+		dynasty = hohenzollern_dynasty
 		tag = PRU
 	}
 

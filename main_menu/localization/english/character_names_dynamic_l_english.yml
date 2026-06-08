@@ -2948,6 +2948,10 @@
  #
  name_charles.name_michael: "Carl Michael"
  #
+ name_charles.name_albert: "Charles Albert"
+ name_charles.name_albert.north_italian_language: "Carlo Alberto"
+ name_charles.name_albert.south_italian_language: "Carlo Alberto"
+ #
  name_charlotte: "Charlotte"
  name_charlotte.basque_language: "Karlota"
  name_charlotte.catalan_dialect: "Carlota"
@@ -9911,6 +9915,7 @@
  name_nicholas.danish_dialect: "Niels"
  name_nicholas.dutch_dialect: "Nicolaas"
  name_nicholas.dutch_dialect.alternative: "Klaas"
+ name_nicholas.east_slavic_language: "Nikolay"
  name_nicholas.french_language: "Nicolas" # Also in Arpitan
  name_nicholas.frisian_language: "Kai"
  name_nicholas.galician_dialect: "Nicolao"
@@ -10624,6 +10629,9 @@
  name_philip.sicilian_dialect: "Filippu"
  name_philip.spanish_language: "Felipe"
  name_philip.welsh_dialect: "Phelip"
+ #
+ name_louis.name_philip: "Louis Philip"
+ name_louis.name_philip.french_language: "Louis Philippe"
  #
  name_philippa: "Philippa"
  name_philippa.basque_language: "Filipa"
@@ -13738,6 +13746,10 @@
  #
  name_frederick_william: "Frederick William"
  name_frederick_william.german_language: "Friedrich Wilhelm"
+ #
+ name_frederick_augustus: "Frederick Augustus"
+ name_frederick_augustus.german_language: "Friedrich August"
+ name_frederick_augustus.polish_dialect: "Fryderyk August"
  #
  name_williametta: "Williametta"
  name_williametta.basque_language: "Guilemina"
