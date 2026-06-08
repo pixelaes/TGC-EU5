@@ -12345,6 +12345,7 @@ countries = {
 
 			MOD = {
 				own_control_core = {
+					north_apennines
 					frassinoro modena nonantola
 					# own_control_integrated, but culture accepted
 					canossa guastalla mirandola reggioem
