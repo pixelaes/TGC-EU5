@@ -97,13 +97,13 @@ NGraphics = {
 	FLAT_MAP_DETAIL_TILES = 20				#number tiles of the detail texture across the map. Higher value = more tiles = smaller details
 	FLAT_MAP_DETAIL_COAST_TILES = 300
 	FLAT_MAP_DETAIL_REMAP = { 0.0 1.0 0.27 0.48 }	#Remaps the red and green channels from x-y to z-w. This is to prevent compression artifacts by allowing a wider range of values in the texture
-	FLAT_MAP_COLOR_WATER_BLUE_HSV = { 0.58 0.50 0.46 }	#Base color of water
-	FLAT_MAP_COLOR_COAST_BLUE_HSV = { 0.58 0.50 0.95 }	#Base color of the gradient that goes from the coastline into the water
-	FLAT_MAP_COLOR_DETAIL_BLUE_HSV = { 0.58 0.50 1.0 }	#Color of the detail texture that's applied on top of the base color ^
-	FLAT_MAP_COLOR_WATER_BROWN_HSV = { 0.056 0.7 1.0 }	#Base color of water
-	FLAT_MAP_COLOR_COAST_BROWN_HSV = { 0.056 0.7 0 }	#Base color of the gradient that goes from the coastline into the water
-	FLAT_MAP_COLOR_DETAIL_BROWN_HSV = { 0.056 0.7 0.1 }	#Color of the detail texture that's applied on top of the base color ^
-	FLAT_MAP_COLOR_LAND_HSV = { 0.069 0.7 1.0 }		#Base color of land
+	FLAT_MAP_COLOR_WATER_BLUE_HSV = { 0.092 0.37 0.9}	#Base color of water
+	FLAT_MAP_COLOR_COAST_BLUE_HSV = { 0.092 0.8 0.4 }	#Base color of the gradient that goes from the coastline into the water
+	FLAT_MAP_COLOR_DETAIL_BLUE_HSV = { 0.094 0.8 0.5 }	#Color of the detail texture that's applied on top of the base color ^
+	FLAT_MAP_COLOR_WATER_BROWN_HSV = { 0.092 0.4 0.18  }	#Base color of water
+	FLAT_MAP_COLOR_COAST_BROWN_HSV = { 0.092 0.2 0.0 }	#Base color of the gradient that goes from the coastline into the water
+	FLAT_MAP_COLOR_DETAIL_BROWN_HSV = { 0.092 0.2 0.02 }	#Color of the detail texture that's applied on top of the base color ^
+	FLAT_MAP_COLOR_LAND_HSV = { 0.09 0.5 0.85 }		#Base color of land
 	FLAT_MAP_COLOR_DETAIL_STRENGTH = 1.0			#How much the blue channel in flatmap_detail.dds affects the country colors
 	FLAT_MAP_COLOR_DETAIL_MID_POINT = 0.5			#the color detail mask (blue channel in flatmap_detail.dds) subtracts from the color value when below the mid point and adds when above
 	FLAT_MAP_MATERIAL_TILE_SIZE = 60				#Tuned to give ~2:1 pixel/texel ratio in max zoom on 4k monitor
@@ -188,7 +188,7 @@ NGraphics = {
 
 NMapColors = {
 	# Colors are HSV with the Hue expressed as degree value / 360
-	DEBUG_COLOR = 						{ 0.83 1.0 1.0 }
+	DEFAULT_COLOR = 					{ 0.090 0.50 0.85 }
 	DEFAULT_COLOR = 					{ 0.0 0.0 0.7 }
 	WATER_MAP_COLOR = 					{ 0.58 0.35 0.45 }
 	OCEAN_MAP_COLOR = 					{ 0.58 0.35 0.35 }
@@ -475,7 +475,7 @@ NBorder = {
 	MAX_ZOOM_STEP_LOCATION = 12 #@province_zoomstep_max
 	MAX_ZOOM_STEP_PROVINCE = 16 #@location_zoomstep_max
 	MAX_ZOOM_STEP_AREA = 22 #@area_zoomstep_max
-	MAX_ZOOM_STEP_COUNTRY = 22
+	MAX_ZOOM_STEP_COUNTRY = -1
 	MAX_ZOOM_STEP_WAR = 22
 	MAX_ZOOM_STEP_SELECTED = -1 # @location_zoomstep_max
 	MAX_ZOOM_STEP_HIGHLIGHTED = -1 #@province_zoomstep_max
@@ -907,7 +907,7 @@ NGameIllustrations = {
 }
 
 NMapName = {
-	NAME_DRAW_DISTANCE = 4000.0		# Remove province names beyond this distance
+	NAME_DRAW_DISTANCE = 8000.0		# Remove province names beyond this distance
 	NAME_FONT_NAME = { "MapFont" "MapFontNumbers" "MapFontConsole" }		# Font used for drawing the map names
 	NAME_FONT_SIZE = 60			# Font size used for drawing the map names
 	FADE_RATE = 3.0					# How fast names fade in/out
