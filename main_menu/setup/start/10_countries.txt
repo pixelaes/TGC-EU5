@@ -1391,20 +1391,42 @@ countries = {
 				starting_technology_level = 3
 				include = "expl_world"
 				government = {
+					ruler = random
 
-					ruler = shl_johann_iii_holstein_kiel
+					type = republic
+					heir_selection = oligarchic_elective
 
-					ruler_term = {	character = shl_gerhard_ii_holstein_kiel start_date = 1290.1.1 end_date = 1312.10.28 regnal_number = 2	}
-					ruler_term = {
-						character = shl_gerhard_iv_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 4 #Yes, there is no Gerhard III, it skips from II to IV
-						character = shl_johann_iii_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 3
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
-					ruler_term = { character = shl_johann_iii_holstein_kiel start_date = 1314.6.7 regnal_number = 3 }
 
-					regnal_numbers = {
-						name_gerard = 4
-						name_john = 3
-						name_adolf = 6
+					laws = {
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
+						marriage_law = monogamous_marriage
+						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
 				}
 
@@ -2424,44 +2446,43 @@ countries = {
 			CAN = {
 				starting_technology_level = 3
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = random
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
 
-					regnal_numbers = {
-						name_edward = 1
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
 
-					reforms = {
-					}
-					privilege = {
-					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
-						language_of_pleading = language_of_pleading_court
-						legal_code_law = common_law_policy
-						medieval_levy_law = longbow_competitions
-						feudal_de_jure_law = by_tradition
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
-
-					centralization_vs_decentralization = 0
-					aristocracy_vs_plutocracy = 0
-					serfdom_vs_free_subjects = 0
-					traditionalist_vs_innovative = 0
-					spiritualist_vs_humanist = 0
-					mercantilism_vs_free_trade = 0
-					offensive_vs_defensive = 0
-					land_vs_naval = 0
-					quality_vs_quantity = 0
-					belligerent_vs_conciliatory = 0
-
-					capital_economy_vs_traditional_economy = 0
-					individualism_vs_communalism = 0
-					outward_vs_inward = 0
 				}
 
 				accepted_cultures = { }
@@ -3476,44 +3497,43 @@ countries = {
 				
 				starting_technology_level = 3
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = random
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
 
-					regnal_numbers = {
-						name_edward = 1
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
 
-					reforms = {
-					}
-					privilege = {
-					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
-						language_of_pleading = language_of_pleading_court
-						legal_code_law = common_law_policy
-						medieval_levy_law = longbow_competitions
-						feudal_de_jure_law = by_tradition
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
-
-					centralization_vs_decentralization = 0
-					aristocracy_vs_plutocracy = 0
-					serfdom_vs_free_subjects = 0
-					traditionalist_vs_innovative = 0
-					spiritualist_vs_humanist = 0
-					mercantilism_vs_free_trade = 0
-					offensive_vs_defensive = 0
-					land_vs_naval = 0
-					quality_vs_quantity = 0
-					belligerent_vs_conciliatory = 0
-
-					capital_economy_vs_traditional_economy = 0
-					individualism_vs_communalism = 0
-					outward_vs_inward = 0
 				}
 
 				accepted_cultures = { }
@@ -3539,44 +3559,43 @@ countries = {
 				}
 				starting_technology_level = 3
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = random
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
 
-					regnal_numbers = {
-						name_edward = 1
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
 
-					reforms = {
-					}
-					privilege = {
-					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
-						language_of_pleading = language_of_pleading_court
-						legal_code_law = common_law_policy
-						medieval_levy_law = longbow_competitions
-						feudal_de_jure_law = by_tradition
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
-
-					centralization_vs_decentralization = 0
-					aristocracy_vs_plutocracy = 0
-					serfdom_vs_free_subjects = 0
-					traditionalist_vs_innovative = 0
-					spiritualist_vs_humanist = 0
-					mercantilism_vs_free_trade = 0
-					offensive_vs_defensive = 0
-					land_vs_naval = 0
-					quality_vs_quantity = 0
-					belligerent_vs_conciliatory = 0
-
-					capital_economy_vs_traditional_economy = 0
-					individualism_vs_communalism = 0
-					outward_vs_inward = 0
 				}
 
 				accepted_cultures = { }
@@ -3604,44 +3623,43 @@ countries = {
 					vilaka jekabpils kraslava makonkalns pietalava rezekne
 				}
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = random
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
 
-					regnal_numbers = {
-						name_edward = 1
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
 
-					reforms = {
-					}
-					privilege = {
-					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
-						language_of_pleading = language_of_pleading_court
-						legal_code_law = common_law_policy
-						medieval_levy_law = longbow_competitions
-						feudal_de_jure_law = by_tradition
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
-
-					centralization_vs_decentralization = 0
-					aristocracy_vs_plutocracy = 0
-					serfdom_vs_free_subjects = 0
-					traditionalist_vs_innovative = 0
-					spiritualist_vs_humanist = 0
-					mercantilism_vs_free_trade = 0
-					offensive_vs_defensive = 0
-					land_vs_naval = 0
-					quality_vs_quantity = 0
-					belligerent_vs_conciliatory = 0
-
-					capital_economy_vs_traditional_economy = 0
-					individualism_vs_communalism = 0
-					outward_vs_inward = 0
 				}
 
 				accepted_cultures = { }
@@ -3665,44 +3683,43 @@ countries = {
 					hapsal kaina kuressaare lihula st_martin valjala
 				}
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = random
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
 
-					regnal_numbers = {
-						name_edward = 1
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
 
-					reforms = {
-					}
-					privilege = {
-					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
-						language_of_pleading = language_of_pleading_court
-						legal_code_law = common_law_policy
-						medieval_levy_law = longbow_competitions
-						feudal_de_jure_law = by_tradition
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
-
-					centralization_vs_decentralization = 0
-					aristocracy_vs_plutocracy = 0
-					serfdom_vs_free_subjects = 0
-					traditionalist_vs_innovative = 0
-					spiritualist_vs_humanist = 0
-					mercantilism_vs_free_trade = 0
-					offensive_vs_defensive = 0
-					land_vs_naval = 0
-					quality_vs_quantity = 0
-					belligerent_vs_conciliatory = 0
-
-					capital_economy_vs_traditional_economy = 0
-					individualism_vs_communalism = 0
-					outward_vs_inward = 0
 				}
 
 				accepted_cultures = { }
@@ -3727,44 +3744,43 @@ countries = {
 					tartu valka vastseliina vonnu
 				}
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = random
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
 
-					regnal_numbers = {
-						name_edward = 1
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
 
-					reforms = {
-					}
-					privilege = {
-					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
-						language_of_pleading = language_of_pleading_court
-						legal_code_law = common_law_policy
-						medieval_levy_law = longbow_competitions
-						feudal_de_jure_law = by_tradition
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
-
-					centralization_vs_decentralization = 0
-					aristocracy_vs_plutocracy = 0
-					serfdom_vs_free_subjects = 0
-					traditionalist_vs_innovative = 0
-					spiritualist_vs_humanist = 0
-					mercantilism_vs_free_trade = 0
-					offensive_vs_defensive = 0
-					land_vs_naval = 0
-					quality_vs_quantity = 0
-					belligerent_vs_conciliatory = 0
-
-					capital_economy_vs_traditional_economy = 0
-					individualism_vs_communalism = 0
-					outward_vs_inward = 0
 				}
 
 				accepted_cultures = { }
@@ -3788,44 +3804,43 @@ countries = {
 					jelgava bauska dobele tukums
 				}
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = random
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
 
-					regnal_numbers = {
-						name_edward = 1
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					parliament = {
+						parliament_type = estate_parliament
 					}
 
-					reforms = {
-					}
-					privilege = {
-					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
-						language_of_pleading = language_of_pleading_court
-						legal_code_law = common_law_policy
-						medieval_levy_law = longbow_competitions
-						feudal_de_jure_law = by_tradition
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
-
-					centralization_vs_decentralization = 0
-					aristocracy_vs_plutocracy = 0
-					serfdom_vs_free_subjects = 0
-					traditionalist_vs_innovative = 0
-					spiritualist_vs_humanist = 0
-					mercantilism_vs_free_trade = 0
-					offensive_vs_defensive = 0
-					land_vs_naval = 0
-					quality_vs_quantity = 0
-					belligerent_vs_conciliatory = 0
-
-					capital_economy_vs_traditional_economy = 0
-					individualism_vs_communalism = 0
-					outward_vs_inward = 0
 				}
 
 				accepted_cultures = { }

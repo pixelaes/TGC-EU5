@@ -395,17 +395,6 @@ LTS = { # Lichtenstein
 	religion_definition = catholic
 }
 
-HSA = {
-	color = map_hansa
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = hanseatic	#can't be holsatian
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
 LUB = {
 	color = map_lubeck
 	color2 = rgb { 156 179 189 }
@@ -479,13 +468,6 @@ HAM = {
 	color = rgb { 227 95 7 }
 
 	culture_definition = lower_saxon
-	religion_definition = catholic
-}
-
-GEL = {
-	color = rgb { 139 66 97 }
-
-	culture_definition = low_franconian
 	religion_definition = catholic
 }
 

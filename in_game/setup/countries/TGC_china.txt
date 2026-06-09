@@ -81,7 +81,3 @@ MNG = {	#Míng
 	religion_definition = sanjiao
 	is_historic = yes	#Released during the Crisis events
 }
-
-CDB = {
-
-}
