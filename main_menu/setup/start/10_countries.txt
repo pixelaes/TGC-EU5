@@ -14,6 +14,1051 @@ current_age = age_1_traditions
 
 countries = {
 	countries = {
+		# North America
+			USA = {
+				own_control_core = {
+					shawmut
+					naumkeag
+					assabet
+					quinsigamond
+					weshacum
+					patuxet
+					assonet
+					nauset
+					nantucket
+					agawam
+					pocumtuck
+					mahaiwe
+					pontoosuck
+					seekonk
+					woonsocket
+					pawcatuck
+					saukiog
+					siccanemos
+					willimantic
+					nehantuck
+					quinnipiac
+					rippowam
+					scatacook
+					winooski
+					gwenaska
+					koes
+					nitamibontegw
+					walloomsac
+					pecunktuk
+					wantastiquet
+					ottauquechee
+					ompompanusooc
+					passumpsic
+					cowasuck
+					amoskeag
+					nashua
+					squamscott
+					pennacook
+					umbagog
+					pemigewasset
+					ossipee
+					monadnock
+					sunapee
+					coos
+					ammonoosuc
+					casco
+					kennebunk
+					androscoggin
+					pequawket
+					ammoscongon
+					anasagunticook
+					kennebec
+					sagadahoc
+					messalonskee
+					norridgewock
+					kineo
+					caratunk
+					kennebango
+					nanrantsouak
+					mittaywanquam
+					penobscot
+					majabigwaduce
+					piscataquis
+					passagassawkeag
+					pemetic
+					millinocket
+					katahdin
+					aroostook
+					meduxnekeag
+					allagash
+					passamaquoddy
+					machias
+					nicatous
+					maatawamkeag
+					manhattan
+					tappan
+					nochpeem
+					montauk
+					unquachog
+					massapequa
+					poughkeepsie
+					ponkhockie
+					minisink
+					kitchawanc
+					mahicannituck
+					horicon
+					esquatak
+					lenape
+					canajoharie
+					saratoga
+					schenectady
+					teionontatatie
+					oneonta
+					ticonderoga
+					itekiatonhniarikon
+					oskennonton
+					oronia
+					oneyotdehaga
+					kawenote
+					tsiietsenhtha
+					adirondacks
+					kanyengehaga
+					nikahionhwakowa
+					oswegatchie
+					ahkwesasne_ny
+					kaniatarahontsi
+					ahna_wate
+					onenioteke
+					niiohehsane
+					teiehonwahkhkwatha
+					oneniote
+					tsikahiotsisto
+					oswego
+					otsiningo
+					skaniatares
+					assorodus
+					gahato
+					canadaigua
+					irondequoit
+					geneseo
+					tsonentsiio
+					tiotoren
+					kanentaweron
+					thahnawate
+					cattaraugus
+					ahouenro
+					raritan
+					hackensack
+					navisink
+					piscopeek
+					tetamekanch
+					kechemeche
+					cohansey
+					amintonck
+					assunpink
+					muscotnetcong
+					hopatcong
+					shackamaxon
+					wawassan
+					wyomissing
+					paxtang
+					connatachequa
+					conewago
+					lehigh
+					paunacussing
+					tohickon
+					schuylkill
+					tesinigh
+					attaock
+					cocalico
+					shamokin
+					mahoning
+					mattawana
+					juniata
+					onojutta
+					tuckahoe
+					wallenpaupack
+					massawomeck
+					scahentowanen
+					lackawanna
+					atrakwaye
+					wappasening
+					lackawaxen
+					minguannan
+					tappahanna
+					assawoman
+					loyalsock
+					lycoming
+					tangasootack
+					andastoerrhonon
+					susquehannock
+					allegheny
+					loyalhanna
+					youghiogheny
+					quemahoning
+					conemaugh
+					erie
+					saucunk
+					shenango
+					tionesta
+					kittaning
+					punxsutawney
+					wicomico
+					chicamacomico
+					matapeake
+					patapsco
+					wicontiss
+					nentego
+					patuxent
+					anacostia
+					monocacy
+					potapoco
+					catoctin
+					antietam
+					cacapon
+					opequon
+					wapocomo
+					werowocomoco
+					patawomeck
+					wicocomico
+					nanzatico
+					rappahannock
+					kiskiack
+					accomac
+					nansemond
+					chesapeake
+					weyanock
+					powhatan
+					appamatuck
+					cheroenhaka
+					waqua
+					pamunkey
+					doeg
+					manassas
+					tegninateo
+					rassawek
+					mowhemencho
+					appomattox
+					monahassanugh
+					massinacak
+					monasukapanough
+					saponi
+					nessoneick
+					occaneechi
+					pintahae
+					meherrin
+					mahock
+					chiswell
+					tutelo
+					torope
+					mondongachate
+					onandagoa
+					massanutten
+					schinhandowi
+					shenandoah
+					mosopeleacipi
+					tazewell
+					bland
+					kallamuckee
+					wappacoma
+					ashby
+					conococheague
+					patna_us
+					calicuas
+					moneton
+					mohetan
+					kanawha
+					ouasioto
+					pocatalico
+					chinquetana
+					weotowe
+					tsalagi
+					anigiduwagi
+					wihlink
+					monongahela
+					onimgohow
+					calicua
+					roanoke
+					croatan
+					hatteras
+					chowanoke
+					pocosin
+					wiccacon
+					pamlico
+					coree
+					corani
+					neuse
+					chicora
+					dawhee
+					woccon
+					cohari
+					sapponah
+					necoes
+					gowtano
+					nooherooka
+					kehaukee
+					cherohenaka_nc
+					pamticough
+					adshusheer
+					eno
+					sissipahaw
+					uwharrie
+					waxhaw
+					saura
+					alamance
+					yadkin
+					keyauwee
+					joara
+					iswa
+					guaquili
+					eswawpuddenah
+					kituwa
+					nikwasi
+					guaxule
+					tahkeeosteh
+					italwa
+					wattogee
+					watauga
+					shady_valley_wasteland
+					tanasee_ridge
+					kuwohi
+					nantahala_forest
+					waccamaw
+					winyah
+					winnee
+					peedee
+					pocotaligo
+					etiwan
+					wando
+					kiawah
+					coosaw
+					combahee
+					wimbee
+					santee
+					cofitachequi
+					hymahi
+					talimeco
+					ilasi
+					catawba
+					enoree
+					pacolate
+					amoyescheck
+					keowee
+					oolenoy
+					generostee
+					selkehatchie
+					saluda
+					congaree
+					kosalu
+					capachequi
+					toa
+					kasihta
+					hitchauta
+					pallachacola
+					eufaula
+					ocute
+					ichisi
+					altamaha
+					cofaqui
+					coosa
+					ulibahali
+					apica
+					talimachusi
+					itaba
+					utsutigway
+					quanasee
+					chattahoochee_forest
+					tugaloo
+					nacoochee
+					estatoe
+					etoho
+					kiokee
+					wahachee
+					ogeechee
+					ohoopee
+					sawokli
+					alapaha
+					mikasuki
+					alapahoochee
+					ocmulgee
+					oconee
+					hitchiti
+					mocama
+					tacatacaru
+					tamathli
+					icafui
+					tybee
+					ossabaw
+					sapelo
+					canoochee
+					coweta
+					kealedji
+					pakanahuili
+					tussahaw
+					tuckabutche
+					tescuntee
+					chatahoochee
+					timucua
+					malapaz
+					uriutina
+					napituca
+					mayaca
+					utina
+					itaraholata
+					jororo
+					acuera
+					surruque
+					ho_bay
+					mayaimi
+					ais
+					guacata
+					tequesta
+					guarungube
+					tequemapo
+					okeechobee
+					caloosahatchee
+					uriparacoxi
+					potano
+					vicela
+					uqueten
+					tocaste
+					guazoco
+					mocozo
+					ozita
+					apalachee
+					anhayca
+					azile
+					uzachile
+					pensacola
+					watappo
+					choctawhatchee
+					chatot
+					pelisipi
+					shawnee
+					xualae
+					maniatique
+					amoyeli_gunahita
+					canasoga
+					chiaha
+					coste
+					hogohega
+					great_smokies
+					chalahume
+					satapo
+					tellico
+					hiwasee
+					chatanugi
+					chestowee
+					walden_ridge
+					daguwanalahi
+					aniyutsi
+					shawanoe
+					spithota
+					chucalissa
+					hatchie
+					obion
+					chewalla
+					tombigby
+					kaskinampo
+					cussate
+					chuwalee
+					tullahoma
+					choate
+					tsoyaha
+					sequatchie
+					bledsoe
+					eskalapia
+					chattarawa
+					nepepimmesipi
+					yuchi
+					kentucky
+					eskippakaithiki
+					chenoka
+					adena
+					lewekeomi
+					cuttawba
+					tywhapita
+					charquis
+					kuttawa
+					aaboukingon
+					pennyrile
+					cuttaway
+					warioto
+					cuyahoga
+					ashtabula
+					mahoning_oh
+					tuscarawas
+					muskingum
+					captina
+					conotton
+					olentangy
+					chianouske
+					scioto
+					ethapetha
+					hocking
+					kokosing
+					sandusky
+					maumee
+					qusquasrundee
+					shapoquate
+					assereniet
+					mameiwasipi
+					mineami
+					pickawillany
+					oheyandewa
+					aankwaahsakwa
+					wapinippi
+					agouasaque
+					patoka
+					gichthanne
+					wapahani
+					quiaghtena
+					mississinewa
+					kankakee
+					pakamik
+					wabash
+					kociihsasiipi
+					tippecanoe
+					micewehudehik
+					kineepikwameekwa
+					waawiiyaataanong
+					giwitatigweiasibi
+					osaakiiwaki
+					shiawasee
+					saginaw
+					shebeon
+					tittabawassee
+					saganing
+					cheboygan
+					wequetong
+					asiniike
+					manistee
+					muskegon
+					onekama
+					mastigon
+					wabenasibi
+					owashtanong
+					kalamazoo
+					sakiwasipi
+					wapikisko
+					mackinac
+					tahquamenon
+					manistique
+					ishpeming
+					menominee
+					keweenaw
+					chicagon
+					ontonagon
+					checagou
+					tiatiki
+					pisticoui
+					kishwaukee
+					ahsenisiipi
+					pecatonica
+					peewareewa
+					peoria
+					theakeiki
+					waupecan
+					sangamon
+					matsigame
+					cahokia
+					kaskaskia
+					kaskankaham
+					amonokoa
+					macoupin
+					ochechiton
+					pawwikamsipi
+					mitchigamea
+					ambraw
+					osanamon
+					okaw
+					millioke
+					kenosha
+					sheboygan
+					koshkonong
+					boojwiikwedong
+					manitowoc
+					oconto
+					peshtigo
+					muhwaosipi
+					meskousing
+					aupuhkirakanewe
+					whaypaw
+					kakaling
+					mendota
+					pecatonica_wi
+					kiwigapawa
+					gaamiskwaabikaang
+					chequamegon
+					kayeskikan
+					mishkwagokag
+					kinnickinnic
+					enookwasaneenah
+					waumandee
+					hahatououadeba
+					pokegama
+					odaawaa
+					sappah
+					abihka
+					callamaco
+					ohatchee
+					tuasi
+					ishtaboli
+					hytop
+					talisi
+					casiste
+					caxa
+					humati
+					atahachi
+					piachi
+					mabila
+					taliepacana
+					zabusta
+					apafalaya
+					pakana
+					wakokai
+					uchee
+					omusee
+					mobile
+					consha
+					tombigbee
+					escatawppa
+					tohome
+					conecuh
+					patsaliga
+					chootawatchee
+					cootcla
+					hogehege
+					koasati
+					apotaka_hacha
+					napochi
+					buddahatchie
+					capino
+					chicksawhe
+					biloxi
+					okeloussa
+					eiowane
+					pascagoula
+					mosco
+					caftacha
+					eianamogola
+					yaneka
+					tchoukafala
+					chatata
+					ongoulastoga
+					sacchuma
+					quizquiz
+					yazoo
+					tiou
+					taposa
+					quigualtam
+					koroa
+					natchez
+					chittaloosa
+					houma
+					bulbancha
+					bogue_chitto
+					tangipahoa
+					itihumma
+					chawasha
+					atchafalaya
+					opelousa
+					ciwat
+					otse
+					tsikip
+					ya_ttaish
+					calcasieu
+					doustioni
+					ouachita
+					kisatchie
+					catahoula
+					tensas
+					tunica
+					anilco
+					guachoyo
+					ayays
+					tutilpinco
+					pacaha
+					quigate
+					casqui
+					coligua
+					calpista
+					palisema
+					nanatsoho
+					naguatex
+					catalte
+					aguacay
+					amaye
+					chaguate
+					tanico
+					quipana
+					tula_ark
+					utiangue
+					tutilcoya
+					anoixi
+					cayas
+					satsukhdin
+					wahzhazhe
+					unica
+					tamaroa
+					wyaconda
+					oahaha
+					emasulia
+					chariton
+					meramec
+					pahatsi
+					tanwakanwakaghe
+					utsehta
+					nikhdhintanwan
+					intapushe
+					ni_okaska
+					towosaghy
+					chepoussa
+					cholohollay
+					nodaway
+					nudarcha
+					wimihsoorita
+					hokah
+					wapkawazioju
+					owatonna
+					hahawakpa
+					lahontan
+					minnetonka
+					wabezi
+					kagiwigwan
+					shingwako
+					winnibigoshish
+					bemidji
+					mahkato
+					watonwan
+					shetek
+					chanshayapi
+					tipsinah
+					kandiyohi
+					tchan_sansan
+					kiyuska
+					pabaska
+					chagu
+					oyate_shisha
+					wakmua_oin
+					igmu
+					kampeska
+					mnihaha
+					okobojo
+					pocasse
+					unkpatina
+					manatara
+					maanaagi_iixodagish
+					ruhptare
+					moingwena
+					coiracoentanon
+					wapsipinicon
+					ocheyedan
+					penaca
+					moskwawakwa
+					iowa
+					kiosaquay
+					inyanshashawatpa
+					pahotcha
+					nishnabotna
+					monona
+					tchankasndata
+					mathoskabde
+					ginebig
+					misi_zaaga_igan
+					minnewawa
+					nemadji
+					wissakode
+					makoua
+					kitchigumi
+					koochiching
+					miskwaagamiiwi
+					mesabi
+					neemannee
+					kawishiwi
+					marapa
+					cerwecerna
+					shichah
+					kaya_paha
+					sicangu
+					waziblo
+					wetarhoo
+					hinyankaga
+					badlands_sd_n
+					shanha
+					mistaiyohe
+					he_sapa
+					awaxaawi_ishiibisha
+					histahayo
+					neesihushaanu
+					skahuukaawiat
+					iyawakagapi
+					matootonha
+					nd_badlands
+					chakadee_wakpa
+					wahasah
+					badlands_mt
+					waahukaahaanu
+					wit_anowi_yohe
+					moehe_yoe
+					ihkowom_iyo_he
+					ksai_yohe
+					mitsiadazi
+					skaapirox
+					buaxaxxaashe
+					aahkawirahkata
+					aashbiliihkupe
+					iichiilikaaashaashe
+					itkanaahtuusu
+					e_ometaeso
+					heviksnipahis
+					mo_ohta_vo_honaaeva
+					notameohmeshehse
+					iisaxpuatahcheeaashe
+					aashbikkaashee
+					ishpiialawaache
+					awatixa
+					adixoodagoorahareesh
+					koostaaka
+					amahami
+					suktogeja_o_ipa
+					patgasa_wakpa
+					baliisshe_aashe
+					minisose
+					ski_iyo_he
+					hoskitaga
+					kinuhsisuht
+					wase_wakpa
+					caba_wakpa
+					badlands_mt_2
+					e_omita_i
+					xuahceesh_annappiio
+					huupalikooche
+					aluutashe
+					baashalapache
+					aashise
+					binmatshua
+					cuthuhogwa
+					kinaksisahtai
+					kyaiyesisahtai
+					onnikisisaahtaayi
+					mahpahpahazhhah
+					nataeosueti
+					rockies_mt
+					shuntaneshnanga
+					kansas
+					monecato
+					kirarutah
+					nepahalla
+					neosho
+					manhukdhintanwan
+					nanzewaspe
+					wasetihoge
+					etzanoa
+					quivira
+					harahey
+					ninescah
+					ayadaldapa
+					ne_shuta
+					aahkawiraahkata
+					ne_miskua
+					kaw
+					panenetah
+					kaiurskuta
+					headdhetanwan
+					wakhakukdhin
+					pasukhdin
+					tulsa
+					tawehash
+					chikaskia
+					guichita
+					wewoka
+					washita
+					ouachita_ok
+					kiamichi
+					hawaastatkiicu
+					nigitai
+					kicpahat
+					gulvau
+					oktahutchee
+					nixgu
+					niobrara
+					aowa
+					waha_tunga
+					kits_ixta
+					kickatari
+					mnitanka
+					minatare
+					omaha
+					nemaha
+					nebraska
+					ni_haunchi_to
+					kanpeska
+					kus_lecha
+					kickatus
+					ickari_kitsu
+					nutanke
+					pitahauerat
+					hehvaitaneo
+					laramie_range
+					meneeohe
+					medicine_bow
+					wotapio
+					so_taeo_o
+					oevemanaho
+					ohktouna
+					hisse_yoyi_yoe
+					hisiometaneo
+					paiyo_he
+					niineniiniicie
+					neenowuxoote_i
+					ce_eiinox
+					nih_iitkotousi_l
+					phankeska_wakpa
+					ononio_he
+					wasin_wakpa
+					veoneohe
+					mano_iyo_he
+					mutsisooni_yohe
+					heeyoteyoo
+					ponoeohe
+					wishkahuunu
+					mahohevahoe
+					beesowuunenno
+					minii_yohe
+					wiskapella
+					chitolah
+					nanwacinahaana
+					pikwedina
+					kimodakiwi
+					ajawewesitagun
+					manomin
+					gawakomitigweia
+					mustinka
+					tewaukon
+					maitomoni_ohe
+					mekinock
+					pembina
+					minnewaukan
+					mirixubaash
+					saakak_hukaahaanu
+					metigoshe
+					itscheabine
+				}
+				starting_technology_level = 3
+				government = {
+					ruler = random
+
+					type = republic
+					heir_selection = oligarchic_elective
+				}
+
+				discovered_regions = {
+					canada_region
+					caribbean_region
+					east_coast_region
+					great_plains_region
+					mesoamerica_region
+					central_america_region
+					aridoamerica_region
+					alaska_region
+					west_coast_region
+					colombia_region
+					brazil_region
+					andes_region
+					chaco_region
+					la_plata_region
+				}
+
+				accepted_cultures = { }
+				tolerated_cultures = { }
+
+				court_language = norman_dialect
+				country_rank = rank_kingdom
+				capital = metigoshe
+
+				include = "expl_western_europe"
+
+				ai_advance_preference_tags = {
+					exploration = 5
+				}
+			}
+
+			
+
+			TEX = {
+				own_control_core = {
+					cacaxtles koke_metchesko_laha cabias tsel_tatli_dsha piguique capoque
+					karankawa copane mariame tu_sis_nde bobole
+					ndawe_qoha
+					tonkawa
+					kanahatino
+					sha_ia_nde
+					kol_kuka
+					teyas
+					mashgalende
+					melenudo
+					waco
+					nokoni
+					tanimuu
+					kitsai
+					taovaya
+					tawakoni
+					aays
+					yscani
+					tses_tsembai
+					tenawa
+					tchokana
+					penatuka
+					kwaaru
+					paruhuya
+					atajal
+					tchesha
+					aranama
+					saxop_wan_pupako
+					chayopin
+					yanaguana
+					nasoni
+					lacane
+					nisohone
+					nadakuh
+					nabiti
+					nacao
+					nacogdoches
+					naconiche
+					ayish
+					haynay
+					nacachau
+					nabaydacu
+					nakono
+					deadose
+					bidai
+					patiri
+					ishak
+					han
+					orcoquisac
+					caux
+					toyal
+					pachina
+					palaquechare
+					mayeye
+					yojuane
+					cantona
+					toho
+					ajehuac_yana
+					sana_tx
+					tza_wan_pupako
+					tickanwatic
+				}
+
+				starting_technology_level = 3
+				include = "expl_world"
+				government = {
+					ruler = random
+
+					type = republic
+					heir_selection = oligarchic_elective
+				}
+
+				country_rank = rank_county
+				capital = waco
+			}
 
 	SWE = {
 		own_control_core = {
@@ -46256,9 +47301,6 @@ countries = {
 
 	#Teypana pueblo - TEY
 	TEY = {
-		own_control_core = {
-			teypana
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -46273,9 +47315,6 @@ countries = {
 
 	#Isleta Pueblo (Shiewhibak) - ISL
 	ISL = {
-		own_control_core = {
-			shiewhibak
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -46287,9 +47326,6 @@ countries = {
 
 	#Acoma Pueblo (�ak?u) - ACO
 	ACO = {
-		own_control_core = {
-			aaku
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -46301,9 +47337,6 @@ countries = {
 
 	#Zia Pueblo - KER
 	KER = {
-		own_control_core = {
-			tsiya
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -46315,9 +47348,6 @@ countries = {
 
 	#Tano - TNN
 	TNN = {
-		own_control_core = {
-			than_u_ge #Tano Tribe
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -46329,9 +47359,6 @@ countries = {
 
 	#Taos pueblo (Ia?oph�ybo) - TAO
 	TAO = {
-		own_control_core = {
-			ialophaybo
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -46343,9 +47370,6 @@ countries = {
 
 	#Sandia Pueblo (Tuf Shur Tia) - TST
 	TST = {
-		own_control_core = {
-			tuf_shur_tia #Sandia Pueblo
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -46357,9 +47381,6 @@ countries = {
 
 	#Ohkwee �w�ngeh - OHK
 	OHK = {
-		own_control_core = {
-			ohkweeo_owingeh
-		}
 		include = "amerindian_tribe_settled_northwestern"
 		include = "expl_northwestern_america"
 		government = {
@@ -56135,10 +57156,6 @@ countries = {
 	#Mohawk/Kanien'kehaka
 	KKA = {
 
-		own_control_core = {
-			canajoharie teionontatatie oneonta schenectady saratoga ticonderoga kawenote oronia tsiietsenhtha oskennonton itekiatonhniarikon
-		}
-
 		starting_technology_level = 0
 		include = "haudenosaunee_tribe"
 		include = "expl_amerindian_east_coast"
@@ -56157,10 +57174,6 @@ countries = {
 	#Oneida/Onyotaaka
 	ONY = {
 
-		own_control_core = {
-			onenioteke oneniote teiehonwahkhkwatha niiohehsane oswegatchie nikahionhwakowa
-		}
-
 		starting_technology_level = 0
 		include = "haudenosaunee_tribe"
 		include = "expl_amerindian_east_coast"
@@ -56177,10 +57190,6 @@ countries = {
 	}
 	#Onondaga/Onondagega
 	ONO = {
-
-		own_control_core = {
-		tsikahiotsisto otsiningo oswego
-		}
 
 		starting_technology_level = 0
 		include = "expl_amerindian_east_coast"
@@ -56199,10 +57208,6 @@ countries = {
 	#Cayuga/Gayogohono
 	GYO = {
 
-		own_control_core = {
-		skaniatares assorodus gahato
-		}
-
 		starting_technology_level = 0
 		include = "expl_amerindian_east_coast"
 		include = "haudenosaunee_tribe"
@@ -56220,9 +57225,6 @@ countries = {
 	#Seneca/Onondowaga
 	ONN = {
 
-		own_control_core = {
-		canadaigua geneseo tsonentsiio irondequoit
-		}
 
 		starting_technology_level = 0
 		include = "haudenosaunee_tribe"
@@ -60539,13 +61541,6 @@ countries = {
 	#Cahokia Mississippian Site
 	#https://en.wikipedia.org/wiki/Cahokia
 	CHK = {
-		own_control_core = {
-			cahokia peewareewa sangamon amonokoa macoupin tamaroa wyaconda oahaha emasulia
-			chariton meramec pahatsi tanwakanwakaghe moingwena
-			kaskaskia kaskankaham chepoussa ochechiton st_francois_mts
-			nudarcha wimihsoorita nodaway
-			peoria
-		}
 		starting_technology_level = 1
 
 		government = {
